@@ -12,8 +12,13 @@ h4 {
   font-weight: bold;
   font-size: 18px;
 }
+h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
 p {
-  color: #4f1a0f;
+  color: white;
   font-size: 18px;
 }
 body {
@@ -22,14 +27,13 @@ body {
 }
 
 a {
-  color: #4f1a0f;
   text-decoration: none;
 }
 
 li {
   list-style-type: none;
   font-size: 18px;
-  color: #4f1a0f;
+  color: white;
 }
 
 .logo {
