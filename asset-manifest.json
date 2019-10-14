@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6865a005.chunk.css",
+    "main.js": "/portfolio/static/js/main.d9e7af22.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d9e7af22.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.7676bd13.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7676bd13.js.map",
+    "static/css/2.9a008ecd.chunk.css": "/portfolio/static/css/2.9a008ecd.chunk.css",
+    "static/js/2.144c061a.chunk.js": "/portfolio/static/js/2.144c061a.chunk.js",
+    "static/js/2.144c061a.chunk.js.map": "/portfolio/static/js/2.144c061a.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.cd22b81b966cb880293fc9ff1098ce0f.js": "/portfolio/precache-manifest.cd22b81b966cb880293fc9ff1098ce0f.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.9a008ecd.chunk.css.map": "/portfolio/static/css/2.9a008ecd.chunk.css.map",
+    "static/css/main.6865a005.chunk.css.map": "/portfolio/static/css/main.6865a005.chunk.css.map",
+    "static/media/Home.css": "/portfolio/static/media/background-home-03.5337fdd4.svg",
+    "static/media/button-home-04.svg": "/portfolio/static/media/button-home-04.5453c2aa.svg",
+    "static/media/css3.svg": "/portfolio/static/media/css3.7ca664e1.svg",
+    "static/media/design-icon.svg": "/portfolio/static/media/design-icon.f73adebd.svg",
+    "static/media/fire.svg": "/portfolio/static/media/fire.bef9ec59.svg",
+    "static/media/github-icon.svg": "/portfolio/static/media/github-icon.1254d581.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.bfdc1d14.svg",
+    "static/media/html5.svg": "/portfolio/static/media/html5.0d4d3658.svg",
+    "static/media/icon-carol-02.svg": "/portfolio/static/media/icon-carol-02.d337ac98.svg",
+    "static/media/icon-carol_01.svg": "/portfolio/static/media/icon-carol_01.7adacde4.svg",
+    "static/media/js.svg": "/portfolio/static/media/js.e335794c.svg",
+    "static/media/linkedin-icon.svg": "/portfolio/static/media/linkedin-icon.3721dc85.svg",
+    "static/media/proj-burgerqueen.PNG": "/portfolio/static/media/proj-burgerqueen.e145e1a4.PNG",
+    "static/media/proj-pokemon.PNG": "/portfolio/static/media/proj-pokemon.7687aa4a.PNG",
+    "static/media/proj-social network.PNG": "/portfolio/static/media/proj-social network.e1d40e54.PNG",
+    "static/media/proj-viewnow.PNG": "/portfolio/static/media/proj-viewnow.0d8acb1b.PNG",
+    "static/media/react.svg": "/portfolio/static/media/react.d0391bda.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7676bd13.js",
+    "static/css/2.9a008ecd.chunk.css",
+    "static/js/2.144c061a.chunk.js",
+    "static/css/main.6865a005.chunk.css",
+    "static/js/main.d9e7af22.chunk.js"
+  ]
+}
