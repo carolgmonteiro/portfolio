@@ -1,3 +1,10 @@
+#PORTAFOLIO
+
+Deploy del proyecto en desarrollo https://carolgmonteiro.github.io/portfolio
+
+###Prototipo de alta fidelidad version mobile
+<a href="https://ibb.co/JxYLrsj"><img src="https://i.ibb.co/yhzTgQF/PROTOTIPO-ALTA.png" alt="PROTOTIPO-ALTA" border="0"></a>
+###Prototipo de baja fidelidad version mobile
 <a href="https://ibb.co/FJkrnXb"><img src="https://i.ibb.co/wCZkY7N/Slide1.png" alt="Slide1" border="0"></a>
 <a href="https://ibb.co/98hytJM"><img src="https://i.ibb.co/YRXfZ6r/Slide2.png" alt="Slide2" border="0"></a>
 <a href="https://ibb.co/FnvjWQ1"><img src="https://i.ibb.co/d79zcNv/Slide3.png" alt="Slide3" border="0"></a>

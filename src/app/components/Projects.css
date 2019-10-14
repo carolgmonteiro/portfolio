@@ -4,8 +4,18 @@
   color: white;
 }
 
-.section-content {
+.projects-content {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.icon-project {
+  height: 150px;
+  padding: 10px;
 }
