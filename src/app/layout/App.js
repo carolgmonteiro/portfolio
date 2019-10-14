@@ -1,88 +1,22 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
-import { Row } from "reactstrap";
-import { Col } from "reactstrap";
-import Home from "../features/views/Home";
-import AboutMe from "../features/views/AboutMe";
-import Projects from "../features/views/Projects";
-import Contact from "../features/views/Contact";
-import SideNav, {
-  Toggle,
-  Nav,
-  NavItem,
-  NavIcon,
-  NavText
-} from "@trendmicro/react-sidenav";
-import "@trendmicro/react-sidenav/dist/react-sidenav.css";
+import Header from "../components/Header";
+import Home from "../components/Home";
+import About from "../components/About";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
+
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="nav-link">
-          <Row>
-            <Col>
-              <Link to={"/"}>
-                <div className="menu-icons">
-                  <img
-                    src={require("../../img/astronaut_face.svg")}
-                    alt="logo-home"
-                    height="40"
-                    width="40"
-                  />
-                  <p>Home</p>
-                </div>
-              </Link>
-            </Col>
-            <Col>
-              <Link to={"/aboutMe"}>
-                <div className="menu-icons">
-                  <img
-                    src={require("../../img/astronaut.svg")}
-                    alt="logo-aboutMe"
-                    height="40"
-                    width="40"
-                  />
-                  <p>About me</p>
-                </div>
-              </Link>
-            </Col>
-            <Col>
-              <Link to={"/projects"}>
-                <div className="menu-icons">
-                  <img
-                    src={require("../../img/rocket.svg")}
-                    alt="logo-projects"
-                    height="40"
-                    width="40"
-                  />
-                  <p>Projects</p>
-                </div>
-              </Link>
-            </Col>
-            <Col>
-              <Link to={"/contact"}>
-                <div className="menu-icons">
-                  <img
-                    src={require("../../img/planet-earth.svg")}
-                    alt="logo-contact"
-                    height="40"
-                    width="40"
-                  />
-                  <p>Contact</p>
-                </div>
-              </Link>
-            </Col>
-          </Row>
-        </div>
+      <div className="App">
+        <Header />
 
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/aboutMe" component={AboutMe} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </Router>
+        <Home id="home" />
+        <About id="about" />
+        <Projects id="projects" />
+        <Contact id="contact" />
+      </div>
     );
   }
 }

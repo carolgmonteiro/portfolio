@@ -1,0 +1,41 @@
+.about {
+  height: 850px;
+  background: #cfeae8;
+}
+
+.image-container {
+  height: 200px;
+  background: white;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.about-icon {
+  height: 300px;
+  width: 300px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.skills-content {
+  padding: 40px;
+  display: flex;
+}
+.icons-container {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.icon {
+  height: 100px;
+  padding: 10px;
+}
+
+.nav-item > .active {
+  background-size: 4px 50px;
+}

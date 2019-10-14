@@ -1,0 +1,14 @@
+.contact {
+  background: #cfeae8;
+
+  height: 800px;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+  /* padding: 40px; */
+  padding-top: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+}
