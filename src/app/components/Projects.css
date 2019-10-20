@@ -1,6 +1,6 @@
 .projects {
   background: #333;
-  height: 800px;
+  /* height: 800px; */
   color: white;
 }
 
@@ -16,6 +16,6 @@
   flex-wrap: wrap;
 }
 .icon-project {
-  height: 150px;
+  height: 350px;
   padding: 10px;
 }

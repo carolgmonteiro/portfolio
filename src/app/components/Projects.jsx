@@ -6,25 +6,35 @@ class Projects extends React.Component {
     return (
       <div className="projects" id="projects">
         <div className="projects-content">
-          <h3>Projects</h3>
+          <h3>Proyectos</h3>
           <div className="icons-container">
             <img
-              src={require("../../img/proj-burgerqueen.PNG")}
+              src={require("../../img/pinterest.svg")}
               className="icon-project"
               alt="icon"
             />
             <img
-              src={require("../../img/proj-social network.PNG")}
+              src={require("../../img/burgerqueen.svg")}
               className="icon-project"
               alt="icon"
             />
             <img
-              src={require("../../img/proj-viewnow.PNG")}
+              src={require("../../img/mdlinks.svg")}
               className="icon-project"
               alt="icon"
             />
             <img
-              src={require("../../img/proj-pokemon.PNG")}
+              src={require("../../img/migrame.svg")}
+              className="icon-project"
+              alt="icon"
+            />
+            <img
+              src={require("../../img/viewnow.svg")}
+              className="icon-project"
+              alt="icon"
+            />
+            <img
+              src={require("../../img/poketmon.svg")}
               className="icon-project"
               alt="icon"
             />

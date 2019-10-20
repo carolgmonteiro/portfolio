@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Home.css";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 class Home extends React.Component {
@@ -15,7 +15,7 @@ class Home extends React.Component {
           <div className="button-content">
             <Link
               activeClass="active"
-              to="projects"
+              to="about"
               spy={true}
               smooth={true}
               offset={-70}

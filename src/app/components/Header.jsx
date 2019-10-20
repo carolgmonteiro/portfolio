@@ -11,7 +11,7 @@ class Header extends Component {
       <nav className="nav" id="navbar">
         <div className="nav-content">
           <img
-            src={require("../../img/icon-carol-02.svg")}
+            src={require("../../img/avatar02.svg")}
             className="nav-logo"
             alt="Logo"
             onClick={this.scrollToTop}
