@@ -19,3 +19,40 @@
   height: 350px;
   padding: 10px;
 }
+.project-content {
+  background-color: #aad0d2;
+  height: 500px;
+  width: 350px;
+  margin: 5px;
+  transition: all 0.3s ease 0s;
+}
+.project-content:hover {
+  filter: brightness(1.1);
+}
+.code {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.code p {
+  font-size: 12px;
+}
+.code a {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease 0s;
+}
+.code a:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  text-decoration: none;
+  color: #f2665f;
+}
+.icon-code {
+  height: 70px;
+  justify-content: space-around;
+  padding: 5px;
+}

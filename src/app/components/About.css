@@ -1,8 +1,20 @@
+h2,
+h4,
+h5,
+p {
+  color: #4b6064;
+}
+
+h1 {
+  color: #f2665f;
+}
 .about {
   min-height: 850px;
   background: #cfeae8;
 }
-
+.education p {
+  font-size: 13px;
+}
 .image-container {
   height: 200px;
   background: white;
@@ -19,17 +31,22 @@
 .about-content {
   max-width: 800px;
   margin: 0 auto;
-  padding: 40px;
+  padding-left: 40px;
+  padding-top: 80px;
+  padding-right: 40px;
 }
 
 .skills-content {
   max-width: 800px;
-  padding: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 40px;
   display: flex;
   margin: 0 auto;
   justify-content: center;
 }
-.icons-container {
+.icons-container-skills {
   display: flex;
   flex-wrap: wrap;
   max-width: 800px;
@@ -44,16 +61,24 @@
   transform: scale(1.1);
   filter: brightness(0.6);
 }
-/* .icons-container-ui {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 400px;
-} */
+
 .icon {
-  height: 100px;
-  padding: 10px;
+  height: 90px;
+  padding: 5px;
 }
 
+.icon-cv {
+  height: 120px;
+  padding: 5px;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+}
+
+.icon-cv:hover {
+  -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
+}
 .nav-item > .active {
   background-size: 4px 50px;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Header.css";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { Col } from "reactstrap";
 
 class Header extends Component {
   scrollToTop = () => {
@@ -16,6 +17,7 @@ class Header extends Component {
             alt="Logo"
             onClick={this.scrollToTop}
           />
+
           <ul className="nav-items">
             <li className="nav-item">
               <Link

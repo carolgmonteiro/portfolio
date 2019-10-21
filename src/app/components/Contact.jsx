@@ -11,7 +11,6 @@ class Contact extends React.Component {
           <p>+56 9 5977-6124 </p>
           <p>carolgmonteiro@live.com</p>
         </div>
-
         <div className="icons-container">
           <a
             href={

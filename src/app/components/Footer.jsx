@@ -3,7 +3,11 @@ import "./Footer.css";
 
 class Footer extends Component {
   render() {
-    return <p>© 2019 Carolina Guido. All rights reserved.</p>;
+    return (
+      <div className="footer">
+        <p>© 2019 Carolina Guido. All rights reserved.</p>
+      </div>
+    );
   }
 }
 

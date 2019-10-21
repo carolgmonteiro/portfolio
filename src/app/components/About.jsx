@@ -7,33 +7,58 @@ class About extends React.Component {
       <div className="about" id="about">
         <div className="image-container">
           <img
-            src={require("../../img/icon-carol_01.svg")}
+            src={require("../../img/programming.svg")}
             className="about-icon"
             alt="about"
           />
         </div>
+        <br />
         <div className="about-content">
-          <h1>Hola mundo!</h1>
+          <h1>"Hello World!"</h1>
+          <br />
           <p>
-            Desarrolladora front-end con experiencia en diseño de interface. Mi
-            motivación es aprender constantemente, desarrollar trabajos en
-            equipo y transmitir conceptos complejos por medio del diseño.
-            Ingressé al mercado de desarrollo tecnológico con el objetivo de
+            Soy desarrolladora front-end con experiencia en diseño de interface.
+            Mi motiva aprender constantemente, desarrollar trabajos en equipo y
+            transmitir conceptos complejos por medio del diseño. Estoy
+            ingressando al mercado de desarrollo tecnológico con el objetivo de
             ayudar a crear herramientas accesibles que mejoren la comunicación
-            entre las personas. Mi objetivo es contribuir en una posición
-            profesional donde pueda participar no solo de la construcción de
-            aplicaciones y herramientas más diversas, amplias e incluyentes como
-            también del proceso de transformación digital de organizaciones en
-            general.
+            entre las personas.
           </p>
-        </div>
-        <div>
-          <button>
-            <p>Mi CV</p>
-          </button>
+          <p>Hablo portugués nativo, inglés avanzado y español avanzado</p>
+          <br />
+          <div className="education">
+            {/* <h3>Educación</h3>
+            <h5>Mayo-Deciembre 2019 . Bootcamp Laboratoria Chile</h5>
+            <p>
+              Bootcamp intensivo de duración de 6 meses estudiando desarrollo
+              web front-end (Javascript)con enfoque en user Interface (UI) |
+              User Experience (UX) | metodologias agiles.
+            </p>
+            <br />
+            <h5>2014-2016 . Universidade de Sao Paulo. Brasil</h5>
+            <p>Diplomado en Planificación y Gestión de Ciudades.</p>
+            <br />
+            <h5>
+              2003-2008 . Universidade Presbiteriana Mackenzie Sao Paulo. Brasil
+            </h5>
+            <p>Graduación Facultad de Arquitectura y Urbanismo.</p> */}
+            <h4>Baja mi currículo acá</h4>
+            <a
+              href={
+                "https://drive.google.com/file/d/1BhVSghST2Sse70PQ6WfoAtNmNZwz5Xok/view?usp=sharing"
+              }
+              target={"_blank"}
+            >
+              <img
+                src={require("../../img/cv.svg")}
+                className="icon-cv"
+                alt="icon"
+              />
+            </a>
+          </div>
         </div>
         <div className="skills-content">
-          <div className="icons-container">
+          <div className="icons-container-skills">
             <h3>Skills</h3>
             <div>
               <div>
@@ -206,7 +231,18 @@ class About extends React.Component {
                     src={require("../../img/indesign.svg")}
                     className="icon"
                     alt="icon"
-                  />{" "}
+                  />
+                </a>
+                <a
+                  className="icons"
+                  href={"https://getbootstrap.com/"}
+                  target={"_blank"}
+                >
+                  <img
+                    src={require("../../img/bootstrap.svg")}
+                    className="icon"
+                    alt="icon"
+                  />
                 </a>
               </div>
             </div>
