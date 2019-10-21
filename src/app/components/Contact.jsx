@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Contact extends React.Component {
   render() {
@@ -11,7 +11,6 @@ class Contact extends React.Component {
           <p>+56 9 5977-6124 </p>
           <p>carolgmonteiro@live.com</p>
         </div>
-
         <div className="icons-container">
           <a
             href={
@@ -19,14 +18,14 @@ class Contact extends React.Component {
             }
           >
             <img
-              src={require("../../img/linkedin-icon.svg")}
+              src={require("../../img/linkedin.svg")}
               className="icon"
               alt="icon"
             />
           </a>
-          <a href={"https://github.com/carolgmonteiro"}>
+          <a href={"https://github.com/carolgmonteiro"} target={"_blank"}>
             <img
-              src={require("../../img/github-icon.svg")}
+              src={require("../../img/github_1.svg")}
               className="icon"
               alt="icon"
             />
@@ -35,11 +34,13 @@ class Contact extends React.Component {
             href={
               "https://issuu.com/carolinaguido/docs/_sketchbook_carolina_guido_jan17"
             }
+            target={"_blank"}
           >
             <img
-              src={require("../../img/design-icon.svg")}
+              src={require("../../img/design.svg")}
               className="icon"
               alt="icon"
+              target={"_blank"}
             />
           </a>
         </div>

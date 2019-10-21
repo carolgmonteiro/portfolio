@@ -1,7 +1,6 @@
 .contact {
   background: #cfeae8;
-
-  height: 800px;
+  height: 500px;
 }
 
 .contact-content {
@@ -10,5 +9,8 @@
   /* padding: 40px; */
   padding-top: 200px;
   max-width: 800px;
-  margin: 0 auto;
+  padding: 40px;
+}
+.icons-container a:hover {
+  filter: brightness(0.7);
 }
