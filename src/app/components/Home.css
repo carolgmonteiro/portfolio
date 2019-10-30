@@ -1,5 +1,6 @@
 .home {
-  height: 600px;
+  height: 800px;
+
   background: url(../../img/background-home-03.svg);
   background-size: cover !important;
   -webkit-background-size: cover !important;

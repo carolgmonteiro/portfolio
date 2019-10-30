@@ -8,6 +8,11 @@ class Contact extends React.Component {
       <div className="contact" id="contact">
         <div className="contact-content">
           <h1>Say hello!</h1>
+          <br />
+          <p>
+            <strong>Let´s talk about new ideas over some coffee</strong>
+          </p>
+          <br />
           <p>+56 9 5977-6124 </p>
           <p>carolgmonteiro@live.com</p>
         </div>
@@ -16,6 +21,7 @@ class Contact extends React.Component {
             href={
               "https://www.linkedin.com/in/carolina-guido-monteiro/?locale=es_ES"
             }
+            target={"_blank"}
           >
             <img
               src={require("../../img/linkedin.svg")}

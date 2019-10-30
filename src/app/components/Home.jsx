@@ -2,6 +2,8 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Home.css";
 // import Header from "../components/Header";
+import Fade from "react-reveal/Fade";
+
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Col } from "reactstrap";
 class Home extends React.Component {
@@ -22,11 +24,13 @@ class Home extends React.Component {
                 offset={-70}
                 duration={500}
               >
-                <img
-                  className="hi"
-                  src={require("../../img/hi.svg")}
-                  alt="about"
-                />
+                <Fade top>
+                  <img
+                    className="hi"
+                    src={require("../../img/hi.svg")}
+                    alt="about"
+                  />
+                </Fade>
               </Link>
             </div>
           </div>

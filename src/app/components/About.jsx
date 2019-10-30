@@ -1,31 +1,59 @@
 import React from "react";
 import "./About.css";
+import Slide from "react-reveal/Slide";
+import "./About-animation.scss";
 
 class About extends React.Component {
   render() {
     return (
       <div className="about" id="about">
         <div className="image-container">
-          <img
-            src={require("../../img/programming.svg")}
-            className="about-icon"
-            alt="about"
-          />
+          <Slide top>
+            <img
+              src={require("../../img/programming.svg")}
+              className="about-icon"
+              alt="about"
+            />{" "}
+          </Slide>
         </div>
-        <br />
+
         <div className="about-content">
-          <h1>"Hello World!"</h1>
-          <br />
-          <p>
-            Soy desarrolladora front-end con experiencia en diseño de interface.
+          <div className="hello-content">
+            <div className="content">
+              <div className="content__container">
+                <p className="content__container__text">Hello</p>
+                <ul className="content__container__list">
+                  <li className="content__container__list__item">world !</li>
+                  <li className="content__container__list__item">users !</li>
+                  <li className="content__container__list__item">
+                    everybody !
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="about-text">
+            <p>
+              I am a front-end developer with experience in interface design. My
+              motivation is to constantly learn, develop teamwork and transmit
+              complex concepts through design. I am ingressing to the
+              technological development market with the aim to help create
+              accessible tools that improve communication between people.
+              {/* Soy desarrolladora front-end con experiencia en diseño de interface.
             Mi motiva aprender constantemente, desarrollar trabajos en equipo y
             transmitir conceptos complejos por medio del diseño. Estoy
             ingressando al mercado de desarrollo tecnológico con el objetivo de
             ayudar a crear herramientas accesibles que mejoren la comunicación
-            entre las personas.
-          </p>
-          <p>Hablo portugués nativo, inglés avanzado y español avanzado</p>
-          <br />
+            entre las personas. */}
+            </p>
+            <p>
+              I speak <strong>native Portuguese</strong>,{" "}
+              <strong>advanced English</strong> and{" "}
+              <strong>advanced Spanish</strong>.
+            </p>
+            {/* Hablo portugués nativo, inglés avanzado y español avanzado */}
+            <br />
+          </div>
           <div className="education">
             {/* <h3>Educación</h3>
             <h5>Mayo-Deciembre 2019 . Bootcamp Laboratoria Chile</h5>
@@ -42,7 +70,7 @@ class About extends React.Component {
               2003-2008 . Universidade Presbiteriana Mackenzie Sao Paulo. Brasil
             </h5>
             <p>Graduación Facultad de Arquitectura y Urbanismo.</p> */}
-            <h4>Baja mi currículo acá</h4>
+            <h5>For further details download my curriculum</h5>
             <a
               href={
                 "https://drive.google.com/file/d/1BhVSghST2Sse70PQ6WfoAtNmNZwz5Xok/view?usp=sharing"
@@ -56,7 +84,10 @@ class About extends React.Component {
               />
             </a>
           </div>
+          <br />
+          <hr />
         </div>
+
         <div className="skills-content">
           <div className="icons-container-skills">
             <h3>Skills</h3>

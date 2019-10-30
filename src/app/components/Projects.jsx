@@ -6,7 +6,7 @@ class Projects extends React.Component {
     return (
       <div className="projects" id="projects">
         <div className="projects-content">
-          <h3>Proyectos</h3>
+          <h3>Front-end Projects</h3>
           <div className="icons-container">
             <div className="project-content">
               <img
@@ -16,9 +16,13 @@ class Projects extends React.Component {
               />
               <div className="code">
                 <p>
-                  Dado un conjunto de urls de imagen, recrea el diseño de página
-                  de pinterest. Herramientas: React JS, Adobe XD, Balsamiq,
-                  firebase.
+                  Given a set of image urls (api), I recreated the design of the
+                  pinterest page.Tools: React JS, Adobe XD, Balsamiq, library
+                  and api. Tools: React JS, Adobe XD, Balsamiq, library and api
+                  Pixabay.
+                  {/* Dado un conjunto de urls de imagen (api), recreé el diseño de
+                  la página de pinterest. Herramientas: React JS, Adobe XD,
+                  Balsamiq, librerias api. */}
                 </p>
                 <a
                   href={
@@ -54,10 +58,15 @@ class Projects extends React.Component {
               />
               <div className="code">
                 <p>
-                  Es una interfaz diseñada para restaurantes, que permite
+                  It is an interface designed for restaurants, which allows
+                                    an easier service flow that takes from the
+                  "ordering" the food                   "delivery" it to the
+                  customer. Tools: React JS, Adobe                   XD,
+                  firebase, bootstrap.
+                  {/* Es una interfaz diseñada para restaurantes, que permite
                   facilitar el flujo que se lleva desde la toma de pedidos hasta
                   la entrega de estos al cliente. Herramientas: React JS, Adobe
-                  XD, firebase, Bootstrap.
+                  XD, firebase, Bootstrap. */}
                 </p>
                 <a
                   href={"https://adrievelyn.github.io/SCL010-Burger-Queen/"}

@@ -12,8 +12,20 @@ h1 {
   min-height: 850px;
   background: #cfeae8;
 }
-.education p {
-  font-size: 13px;
+.education {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fbd0ce;
+  -webkit-box-shadow: 13px 11px 0px 2px rgba(242, 102, 95, 1);
+  -moz-box-shadow: 13px 11px 0px 2px rgba(242, 102, 95, 1);
+  box-shadow: 13px 11px 0px 2px rgba(242, 102, 95, 1);
+  padding: 20px;
+  border: solid 2px #333333;
+  /* border-radius: 20px; */
+}
+.education h5 {
+  padding-top: 40px;
+  font-size: 18px;
 }
 .image-container {
   height: 200px;
@@ -22,17 +34,22 @@ h1 {
   justify-content: center;
   display: flex;
 }
-
+.hello-content {
+  padding-top: 25%;
+}
 .about-icon {
+  margin-top: 20px;
   height: 300px;
   width: 300px;
 }
-
+.about-text {
+  padding: 20px;
+}
 .about-content {
   max-width: 800px;
   margin: 0 auto;
   padding-left: 40px;
-  padding-top: 80px;
+  /* padding-top: 50%; */
   padding-right: 40px;
 }
 
@@ -40,11 +57,14 @@ h1 {
   max-width: 800px;
   padding-right: 40px;
   padding-left: 40px;
-  padding-top: 10px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 70px;
   display: flex;
   margin: 0 auto;
   justify-content: center;
+}
+.skills-content h3 {
+  padding-bottom: 30px;
 }
 .icons-container-skills {
   display: flex;
@@ -64,14 +84,16 @@ h1 {
 
 .icon {
   height: 90px;
-  padding: 5px;
+  padding: 6px;
 }
 
 .icon-cv {
+  display: flex;
+  flex-wrap: wrap;
   height: 120px;
   padding: 5px;
   transition: all 0.3s ease 0s;
-  vertical-align: middle;
+  justify-content: center;
 }
 
 .icon-cv:hover {
@@ -81,4 +103,24 @@ h1 {
 }
 .nav-item > .active {
   background-size: 4px 50px;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .icon {
+    height: 70px;
+    padding: 6px;
+  }
+  .about-icon {
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+  }
+  .education h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .hello-content {
+    padding-top: 40%;
+  }
 }

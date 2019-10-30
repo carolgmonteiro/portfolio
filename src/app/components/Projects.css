@@ -56,3 +56,28 @@
   justify-content: space-around;
   padding: 5px;
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .projects-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  .projects-content h3 {
+    padding-bottom: 40px;
+  }
+  .icon-project {
+    height: 300px;
+    padding: 10px;
+  }
+  .project-content {
+    background-color: #aad0d2;
+    height: 500px;
+    width: 400px;
+    margin: 5px;
+    transition: all 0.3s ease 0s;
+  }
+  .project-content:hover {
+    filter: brightness(1.1);
+  }
+}

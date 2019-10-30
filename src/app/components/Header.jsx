@@ -18,7 +18,7 @@ class Header extends Component {
             onClick={this.scrollToTop}
           />
 
-          <ul className="nav-items">
+          <div className="nav-items">
             <li className="nav-item">
               <Link
                 activeClass="active"
@@ -55,7 +55,7 @@ class Header extends Component {
                 contact
               </Link>
             </li>
-          </ul>
+          </div>
         </div>
       </nav>
     );
