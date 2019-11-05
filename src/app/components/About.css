@@ -34,15 +34,16 @@ h1 {
   justify-content: center;
   display: flex;
 }
-.hello-content {
+/* .hello-content {
   padding-top: 25%;
-}
+} */
 .about-icon {
   margin-top: 20px;
   height: 300px;
   width: 300px;
 }
 .about-text {
+  margin-top: 100px;
   padding: 20px;
 }
 .about-content {
@@ -76,9 +77,9 @@ h1 {
 }
 
 .icons img:hover {
-  -webkit-transform: scale(1.1);
+  /* -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  transform: scale(1.1); */
   filter: brightness(0.6);
 }
 
@@ -96,11 +97,11 @@ h1 {
   justify-content: center;
 }
 
-.icon-cv:hover {
+/* .icon-cv:hover {
   -webkit-transform: rotateZ(-30deg);
   -ms-transform: rotateZ(-30deg);
   transform: rotateZ(-30deg);
-}
+} */
 .nav-item > .active {
   background-size: 4px 50px;
 }

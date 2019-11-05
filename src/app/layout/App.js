@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import "./App.css";
 import Header from "../components/Header";
 import Home from "../components/Home";
@@ -9,14 +10,22 @@ import Footer from "../components/Footer";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <Home id="home" />
-        <About id="about" />
-        <Projects id="projects" />
-        <Contact id="contact" />
-        <Footer />
-      </div>
+      <main id="App">
+        <Header
+          width={"350px"}
+          pageWrapId={"page-wrap"}
+          outerContainerId={"outer-container"}
+        />
+        <div id="outer-container">
+          <div id="page-wrap">
+            <Home id="home" />
+            <Projects id="projects" />
+            <About id="about" />
+            <Contact id="contact" />
+            <Footer />
+          </div>
+        </div>
+      </main>
     );
   }
 }

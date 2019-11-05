@@ -4,6 +4,7 @@
   height: 100px;
   margin: 0 auto;
   padding: 30px;
-
   width: 100%;
+  justify-content: center;
+  display: flex;
 }

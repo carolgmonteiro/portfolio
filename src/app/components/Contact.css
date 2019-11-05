@@ -13,4 +13,5 @@
 }
 .icons-container a:hover {
   filter: brightness(0.7);
+  /* fill: #000000; */
 }

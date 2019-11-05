@@ -1,24 +1,22 @@
 import React from "react";
 import "./About.css";
-import Slide from "react-reveal/Slide";
-import "./About-animation.scss";
+// import Slide from "react-reveal/Slide";
+// import "./About-animation.scss";
 
 class About extends React.Component {
   render() {
     return (
       <div className="about" id="about">
         <div className="image-container">
-          <Slide top>
-            <img
-              src={require("../../img/programming.svg")}
-              className="about-icon"
-              alt="about"
-            />{" "}
-          </Slide>
+          <img
+            src={require("../../img/programming-01.svg")}
+            className="about-icon"
+            alt="about"
+          />
         </div>
 
         <div className="about-content">
-          <div className="hello-content">
+          {/* <div className="hello-content">
             <div className="content">
               <div className="content__container">
                 <p className="content__container__text">Hello</p>
@@ -31,7 +29,7 @@ class About extends React.Component {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="about-text">
             <p>
               I am a front-end developer with experience in interface design. My
@@ -93,188 +91,101 @@ class About extends React.Component {
             <h3>Skills</h3>
             <div>
               <div>
-                <a
-                  className="icons"
-                  href={"https://www.javascript.com/about"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/js.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={
-                    "https://developer.mozilla.org/es/docs/HTML/HTML5/Introducci%C3%B3n_a_HTML5"
-                  }
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/html5.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={"https://developer.mozilla.org/es/docs/Archive/CSS3"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/css3.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={"https://reactjs.org/"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/react.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
+                <img
+                  src={require("../../img/js.svg")}
+                  className="icon"
+                  alt="icon"
+                />
 
-                <a
-                  className="icons"
-                  href={"https://firebase.google.com/docs"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/firebase.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={"https://nodejs.org/en/about/"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/nodejs.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={"https://github.com/about"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/github.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={"https://git-scm.com/"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/git.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
+                <img
+                  src={require("../../img/html5.svg")}
+                  className="icon"
+                  alt="icon"
+                />
 
-                <a
-                  className="icons"
-                  href={"https://jestjs.io/"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/jest.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={"https://balsamiq.com/"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/balsamiq.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={"https://www.figma.com/"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/figma.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={"https://www.adobe.com/la/products/xd/details.html"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/xd.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={
-                    "https://helpx.adobe.com/illustrator/how-to/what-is-illustrator.html"
-                  }
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/illustrator.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={"https://helpx.adobe.com/support/photoshop.html"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/photoshop.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={"https://www.adobe.com/pt/products/indesign.html"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/indesign.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
-                <a
-                  className="icons"
-                  href={"https://getbootstrap.com/"}
-                  target={"_blank"}
-                >
-                  <img
-                    src={require("../../img/bootstrap.svg")}
-                    className="icon"
-                    alt="icon"
-                  />
-                </a>
+                <img
+                  src={require("../../img/css3.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/react.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/firebase.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/nodejs.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/github.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/git.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/jest.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/balsamiq.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/figma.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/xd.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/illustrator.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/photoshop.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/indesign.svg")}
+                  className="icon"
+                  alt="icon"
+                />
+
+                <img
+                  src={require("../../img/bootstrap.svg")}
+                  className="icon"
+                  alt="icon"
+                />
               </div>
             </div>
           </div>
