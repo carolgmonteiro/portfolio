@@ -1,6 +1,10 @@
+p {
+  color: #333333;
+}
+
 .home {
   height: 600px;
-  background: url(../../img/background-home-05.svg);
+  background: url(../../img/background-home-08.svg);
   background-size: cover !important;
   -webkit-background-size: cover !important;
   display: flex;
@@ -8,7 +12,7 @@
 }
 
 .home-content {
-  margin-top: 100px;
+  margin-top: 50px;
   margin: 0 auto;
   padding: 10px;
 }
@@ -26,10 +30,10 @@
 } */
 
 .hello-content {
-  padding-top: 7.5rem;
-  padding-bottom: 3rem;
-  margin-left: 3rem;
-  max-width: 350px;
+  padding-top: 6.5rem;
+  /* padding-bottom: 1rem;
+  margin-left: rem; */
+  max-width: 400px;
 }
 .home-icon {
   cursor: pointer;
@@ -37,6 +41,14 @@
   transition: all 0.3s ease 0s;
 }
 
+.btn-icon {
+  position: relative;
+  height: 380px;
+  width: 380px;
+  right: 35px;
+  bottom: 70px;
+  cursor: pointer;
+}
 /* 3D BUTTON */
 
 /* .hi:hover {
@@ -49,5 +61,66 @@
     margin-top: 30px;
     min-height: 250px;
     height: 400px;
+  }
+}
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font: normal 400 20px/1 "Josefin Sans", sans-serif;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+.demo a:hover {
+  opacity: 0.5;
+}
+#section05 a {
+  padding-top: 70px;
+}
+#section05 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
   }
 }

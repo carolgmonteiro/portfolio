@@ -1,3 +1,13 @@
+label {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 13px;
+  margin-bottom: 0;
+}
+
 .contact {
   background: #cfeae8;
   height: 500px;
@@ -14,4 +24,16 @@
 .icons-container a:hover {
   filter: brightness(0.7);
   /* fill: #000000; */
+}
+
+.icon-small img {
+  height: 45px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 6px;
+}
+
+.icon-small label {
+  display: inline-flex;
+  flex-wrap: wrap;
 }

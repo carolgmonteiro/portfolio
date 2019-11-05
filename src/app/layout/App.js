@@ -7,6 +7,7 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import { Col } from "reactstrap";
 class App extends Component {
   render() {
     return (
@@ -16,6 +17,14 @@ class App extends Component {
           pageWrapId={"page-wrap"}
           outerContainerId={"outer-container"}
         />
+        <Col className="nav-logo">
+          <img
+            src={require("../../img/logo-avatar.svg")}
+            className="nav-logo"
+            alt="Logo"
+            onClick={this.scrollToTop}
+          />
+        </Col>
         <div id="outer-container">
           <div id="page-wrap">
             <Home id="home" />

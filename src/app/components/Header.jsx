@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Col } from "reactstrap";
-import { elastic as Menu } from "react-burger-menu";
+import { stack as Menu } from "react-burger-menu";
 
 class Header extends Component {
   scrollToTop = () => {
@@ -10,26 +10,26 @@ class Header extends Component {
   };
   render() {
     return (
-      // <div>
-      //   <Col className="nav-logo">
-      //     <img
-      //       src={require("../../img/avatar03.svg")}
-      //       className="nav-logo"
-      //       alt="Logo"
-      //       onClick={this.scrollToTop}
-      //     />
-      //   </Col>
-      <Menu>
-        {/* <li>
+      <div>
+        <Menu right>
           <img
             src={require("../../img/avatar02.svg")}
             className="nav-logo"
             alt="Logo"
-            onClick={this.scrollToTop}
           />
-        </li> */}
-        <li className="nav-item">
           <Link
+            className="link"
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            home
+          </Link>
+          <Link
+            className="link"
             activeClass="active"
             to="projects"
             spy={true}
@@ -39,9 +39,9 @@ class Header extends Component {
           >
             projects
           </Link>
-        </li>
-        <li className="nav-item">
+
           <Link
+            className="link"
             activeClass="active"
             to="about"
             spy={true}
@@ -51,10 +51,9 @@ class Header extends Component {
           >
             about
           </Link>
-        </li>
 
-        <li className="nav-item">
           <Link
+            className="link"
             activeClass="active"
             to="contact"
             spy={true}
@@ -64,19 +63,18 @@ class Header extends Component {
           >
             contact
           </Link>
-        </li>
-        <li className="nav-item">
+
           <a
+            className="link"
             href={
               "https://drive.google.com/file/d/1BhVSghST2Sse70PQ6WfoAtNmNZwz5Xok/view?usp=sharing"
             }
             target={"_blank"}
           >
-            c.v.
+            curriculo
           </a>
-        </li>
-      </Menu>
-      // </div>
+        </Menu>
+      </div>
     );
   }
 }

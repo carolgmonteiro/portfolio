@@ -7,7 +7,7 @@ import "./Button.scss";
 // import Fade from "react-reveal/Fade";
 
 import { Link, animateScroll as scroll } from "react-scroll";
-import { Col } from "reactstrap";
+// import { Col } from "reactstrap";
 class Home extends React.Component {
   render() {
     return (
@@ -39,9 +39,22 @@ class Home extends React.Component {
               offset={-70}
               duration={500}
             >
-              <p>Find it out!</p>
+              <img
+                src={require("../../img/avatar05.svg")}
+                className="btn-icon"
+                alt="about"
+              />
+              {/* <p>Find it out!</p> */}
             </Link>
           </div>
+
+          {/* <section id="section05" className="demo">
+            <a href="#projects">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </section> */}
         </div>
       </div>
     );

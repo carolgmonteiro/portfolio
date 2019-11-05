@@ -13,8 +13,14 @@ class Contact extends React.Component {
             <strong>Let´s talk about new ideas over some coffee</strong>
           </p>
           <br />
-          <p>+56 9 5977-6124 </p>
-          <p>carolgmonteiro@live.com</p>
+          <label className="icon-small">
+            <img src={require("../../img/e-mail.svg")} alt="icon" />
+            <p>+56 9 5977-6124 </p>
+          </label>
+          <label className="icon-small">
+            <img src={require("../../img/whatsapp.svg")} alt="icon" />
+            <p>carolgmonteiro@live.com</p>
+          </label>
         </div>
         <div className="icons-container">
           <a
