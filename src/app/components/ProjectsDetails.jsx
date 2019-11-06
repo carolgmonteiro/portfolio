@@ -1,11 +1,20 @@
 import React, { PureComponent } from "react";
 import "./ProjectsDetails.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 class ProjectsDetails extends PureComponent {
   render() {
+    AOS.init();
     return (
       <ul className="grid">
-        <li>
+        <li
+          className="button-content"
+          data-aos="fade-up"
+          data-aos-delay="10"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1000"
+        >
           <figure>
             <img
               src={require("../../img/pinterest.svg")}
@@ -40,7 +49,13 @@ class ProjectsDetails extends PureComponent {
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li
+          className="button-content"
+          data-aos="fade-up"
+          data-aos-delay="10"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="3000"
+        >
           <figure>
             <img
               src={require("../../img/burgerqueen.svg")}
@@ -48,7 +63,7 @@ class ProjectsDetails extends PureComponent {
               alt="icon"
             />
             <figcaption>
-              <h3>BurgerQueen</h3>
+              <h3>Burger Queen</h3>
               <span>September 2019</span>
               <p>
                 It is an interface designed for restaurants, which allows an
@@ -74,7 +89,13 @@ class ProjectsDetails extends PureComponent {
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li
+          className="button-content"
+          data-aos="fade-up"
+          data-aos-delay="10"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="3000"
+        >
           <figure>
             <img
               src={require("../../img/mdlinks.svg")}
@@ -113,7 +134,13 @@ class ProjectsDetails extends PureComponent {
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li
+          className="button-content"
+          data-aos="fade-up"
+          data-aos-delay="10"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1500"
+        >
           <figure>
             <img
               src={require("../../img/migrame.svg")}
@@ -151,7 +178,13 @@ class ProjectsDetails extends PureComponent {
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li
+          className="button-content"
+          data-aos="fade-up"
+          data-aos-delay="10"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1500"
+        >
           <figure>
             <img
               src={require("../../img/viewnow.svg")}
@@ -188,7 +221,13 @@ class ProjectsDetails extends PureComponent {
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li
+          className="button-content"
+          data-aos="fade-up"
+          data-aos-delay="10"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="3000"
+        >
           <figure>
             <img
               src={require("../../img/poketmon.svg")}

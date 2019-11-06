@@ -12,11 +12,11 @@ class Header extends Component {
     return (
       <div>
         <Menu right>
-          <img
+          {/* <img
             src={require("../../img/avatar02.svg")}
             className="nav-logo"
             alt="Logo"
-          />
+          /> */}
           <Link
             className="link"
             activeClass="active"
@@ -71,7 +71,26 @@ class Header extends Component {
             }
             target={"_blank"}
           >
-            curriculo
+            currículo
+          </a>
+          <a
+            href={
+              "https://www.linkedin.com/in/carolina-guido-monteiro/?locale=es_ES"
+            }
+            target={"_blank"}
+          >
+            <img
+              src={require("../../img/linkedin.svg")}
+              className="icon-menu"
+              alt="icon"
+            />
+          </a>
+          <a href={"https://github.com/carolgmonteiro"} target={"_blank"}>
+            <img
+              src={require("../../img/github_1.svg")}
+              className="icon-menu"
+              alt="icon"
+            />
           </a>
         </Menu>
       </div>

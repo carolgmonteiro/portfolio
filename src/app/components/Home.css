@@ -3,8 +3,8 @@ p {
 }
 
 .home {
-  height: 600px;
-  background: url(../../img/background-home-08.svg);
+  height: 500px;
+  background: url(../../img/background-home-09.svg);
   background-size: cover !important;
   -webkit-background-size: cover !important;
   display: flex;
@@ -12,9 +12,18 @@ p {
 }
 
 .home-content {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin: 0 auto;
   padding: 10px;
+}
+
+.hello-content {
+  margin: 0 auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 5rem;
+  max-width: 570px;
 }
 
 .button-content {
@@ -29,12 +38,6 @@ p {
   height: 400px;
 } */
 
-.hello-content {
-  padding-top: 6.5rem;
-  /* padding-bottom: 1rem;
-  margin-left: rem; */
-  max-width: 400px;
-}
 .home-icon {
   cursor: pointer;
   height: 300px;
@@ -63,6 +66,7 @@ p {
     height: 400px;
   }
 }
+
 .demo a {
   position: absolute;
   bottom: 20px;
@@ -81,7 +85,7 @@ p {
   opacity: 0.5;
 }
 #section05 a {
-  padding-top: 70px;
+  padding-top: 120px;
 }
 #section05 a span {
   position: absolute;

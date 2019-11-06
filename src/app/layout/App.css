@@ -4,9 +4,9 @@ body {
 }
 
 #App {
-  font-family: "brandon-grotesque", "HelveticaNeue-Light",
+  /* font-family: "brandon-grotesque", "HelveticaNeue-Light",
     "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
-    sans-serif;
+    sans-serif; */
 
   /* Give app full page to work with */
   height: 100vh;

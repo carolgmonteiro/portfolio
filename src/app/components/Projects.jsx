@@ -1,13 +1,24 @@
 import React from "react";
 import "./Projects.css";
 import ProjectsDetails from "./ProjectsDetails";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./About-animation.scss";
 
 class Projects extends React.Component {
   render() {
+    AOS.init();
     return (
       <div className="projects" id="projects">
         <div className="projects-content">
-          <h2>some of my projects...</h2>
+          {/* <h1
+            data-aos="zoom-in-right"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="3000"
+          >
+            Some of my projects...
+          </h1> */}
           <ProjectsDetails />
           {/* <div className="icons-container">
             
