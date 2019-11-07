@@ -24,6 +24,7 @@ class ProjectsDetails extends PureComponent {
             <figcaption>
               <h3>Pinterest</h3>
               <span>October 2019</span>
+              <hr />
               <p>
                 Given a set of image urls (api), I recreated the design of the
                 pinterest Home page.
@@ -33,15 +34,13 @@ class ProjectsDetails extends PureComponent {
                 <p>React JS, Adobe XD, Balsamiq, libraries and api Pixabay.</p>
               </label>
               <a
-                href={
-                  "https://drive.google.com/file/d/1BhVSghST2Sse70PQ6WfoAtNmNZwz5Xok/view?usp=sharing"
-                }
+                href={"https://github.com/carolgmonteiro/desafio_pinterest"}
                 target={"_blank"}
               >
                 Demo
               </a>
               <a
-                href={"https://github.com/carolgmonteiro/desafio_pinterest"}
+                href={"https://carolgmonteiro.github.io/desafio_pinterest/"}
                 target={"_blank"}
               >
                 Code
@@ -65,6 +64,7 @@ class ProjectsDetails extends PureComponent {
             <figcaption>
               <h3>Burger Queen</h3>
               <span>September 2019</span>
+              <hr />
               <p>
                 It is an interface designed for restaurants, which allows an
                 easier service flow to the customer.
@@ -105,6 +105,7 @@ class ProjectsDetails extends PureComponent {
             <figcaption>
               <h3>MD.Links</h3>
               <span>August 2019</span>
+              <hr />
               <p>
                 Library created using Node.js that reads and analyzes files in
                 Markdown format.
@@ -150,6 +151,7 @@ class ProjectsDetails extends PureComponent {
             <figcaption>
               <h3>Migra.me</h3>
               <span>September 2019</span>
+              <hr />
               <p>
                 SPA web app focused on immigrants for searching information
                 about new country home.
@@ -194,6 +196,7 @@ class ProjectsDetails extends PureComponent {
             <figcaption>
               <h3>ViewNow!</h3>
               <span>July 2019</span>
+              <hr />
               <p>
                 Inclusive web design for people with color blindness, that
                 filter and recommends movies based on mood and availability.
@@ -237,6 +240,7 @@ class ProjectsDetails extends PureComponent {
             <figcaption>
               <h3>PoketMon</h3>
               <span>July 2019</span>
+              <hr />
               <p>
                 Pokemon Kanto generation platform to obtain basic information
                 such as names, numbers, eggs.

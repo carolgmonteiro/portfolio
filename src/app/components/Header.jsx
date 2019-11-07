@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Col } from "reactstrap";
-import { stack as Menu } from "react-burger-menu";
+import { elastic as Menu } from "react-burger-menu";
 
 class Header extends Component {
   scrollToTop = () => {
@@ -23,7 +23,7 @@ class Header extends Component {
             to="home"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-80}
             duration={500}
           >
             home
@@ -34,7 +34,7 @@ class Header extends Component {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-70}
+            // offset={-70}
             duration={500}
           >
             projects
@@ -46,7 +46,7 @@ class Header extends Component {
             to="about"
             spy={true}
             smooth={true}
-            offset={-70}
+            // offset={-70}
             duration={500}
           >
             about
@@ -58,7 +58,7 @@ class Header extends Component {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-70}
+            // offset={-70}
             duration={500}
           >
             contact
@@ -67,7 +67,7 @@ class Header extends Component {
           <a
             className="link"
             href={
-              "https://drive.google.com/file/d/1BhVSghST2Sse70PQ6WfoAtNmNZwz5Xok/view?usp=sharing"
+              "https://drive.google.com/file/d/1uqFf1V3yx1JSYUzH1VtDjlnJC_x7Psx0/view?usp=sharing"
             }
             target={"_blank"}
           >

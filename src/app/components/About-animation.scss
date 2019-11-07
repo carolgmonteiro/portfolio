@@ -1,5 +1,6 @@
 .content__container__text {
-  color: #4b6064;
+  // color: #4b6064;
+  color: #e6f4f3;
 }
 
 .content {
@@ -13,7 +14,7 @@
   font-family: "Lato", sans-serif;
   font-size: 35px;
   line-height: 40px;
-  color: #f2665f;
+  color: #f0473e;
 
   &__container {
     font-weight: 600;
@@ -22,12 +23,12 @@
     padding: 0 40px;
 
     &:before {
-      content: "<";
+      content: "[";
       left: 0;
     }
 
     &:after {
-      content: ">";
+      content: "]";
       position: absolute;
       right: 0;
     }
@@ -36,8 +37,8 @@
     &:before {
       position: absolute;
       top: 0;
-
-      color: #4b6064;
+      color: #e6f4f3;
+      // color: #4b6064;
       font-size: 42px;
       line-height: 40px;
 

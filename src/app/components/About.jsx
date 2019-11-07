@@ -8,127 +8,168 @@ class About extends React.Component {
     AOS.init();
     return (
       <div className="about" id="about">
-        <div
-          className="image-container"
-          data-aos="zoom-out"
-          data-aos-delay="10"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
-        >
-          <img
-            src={require("../../img/programming-01.svg")}
-            className="about-icon"
-            alt="about"
-          />
-        </div>
-        <div className="about-content">
+        <div className="about-container">
           <h1
             data-aos="zoom-in-right"
             data-aos-delay="10"
             data-aos-anchor-placement="top-bottom"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             About me
           </h1>
-          <div
-            className="about-text"
-            data-aos="fade-up"
-            data-aos-delay="10"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="3000"
-          >
-            <p>
-              I am a brasilian web-designer/front-end developer based in
-              Santiago, Chile.
-            </p>
-            <p>
-              My motivation is constantly keep learning, developping teamwork
-              and transmit complex concepts through design.
-            </p>
-            <p>
-              Started my journey in programming, redirecting my professional
-              career originally as an architect/urban designer, and I found a
-              way to develop creativity and self-learning creating solutions.
-            </p>
-            <p>
-              I am ingressing to the technological development market with the
-              aim to help create accessible tools that improve communication
-              between people.
-            </p>
-            <p>
-              My aim is to participate not only in the construction of more
-              diverse, comprehensive and inclusive applications and tools but
-              also of processes of digital transformation of organizations in
-              general.
-            </p>
-            <p>
-              I speak <strong>native Portuguese</strong>,{" "}
-              <strong>advanced English</strong> and{" "}
-              <strong>advanced Spanish</strong>.
-            </p>
-            {/* Hablo portugués nativo, inglés avanzado y español avanzado */}
-            <br />
-          </div>
-          <div
-            className="education"
-            data-aos="fade-up"
-            data-aos-delay="10"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="3000"
-          >
-            <h5>For further details take a look on my curriculum</h5>
-            <a
-              href={
-                "https://drive.google.com/file/d/1BhVSghST2Sse70PQ6WfoAtNmNZwz5Xok/view?usp=sharing"
-              }
-              target={"_blank"}
-            >
-              <img
-                src={require("../../img/cv.svg")}
-                className="icon-cv"
-                alt="icon"
-              />
-            </a>
-          </div>
-          <br />
-          <hr />
-        </div>
 
+          {/* <div className="image-container">
+          <img
+            data-aos="zoom-out"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="3000"
+            src={require("../../img/programming-01.svg")}
+            className="about-icon"
+            alt="about"
+          />
+        </div> */}
+          <div className="about-content">
+            <div
+              className="about-text"
+              data-aos="fade-up"
+              data-aos-delay="10"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <p>
+                I am a brazilian web-designer/front-end developer based in
+                Santiago, Chile.
+              </p>
+              {/* <p>
+                My motivation is constantly keep learning, developping teamwork
+                and transmit complex concepts through design.
+              </p> */}
+              <p>
+                {/* I started my journey in this field of activity redirecting my
+                professional career originally as an architect/urban designer. */}
+                My motivation is constantly keep learning, developping teamwork
+                and transmit complex concepts through design. I found in
+                programming a way to develop my creativity and self-learning
+                creating solutions combining design and logic.
+              </p>
+              {/* <p>
+                I am ingressing to the technological development market with the
+                aim to help create accessible tools that improve communication
+                between people.
+              </p> */}
+              <p>
+                My aim is to participate not only in the construction of more
+                diverse, comprehensive and inclusive applications and tools but
+                also of processes of digital transformation of organizations in
+                general.
+              </p>
+              <p>
+                I speak <strong>native Portuguese</strong>,{" "}
+                <strong>advanced English</strong> and{" "}
+                <strong>advanced Spanish</strong>.
+              </p>
+            </div>
+            <div className="image-about-side">
+              <img
+                data-aos="zoom-out"
+                data-aos-delay="10"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="3000"
+                src={require("../../img/avatar07.svg")}
+                alt="about"
+              />
+            </div>
+          </div>
+        </div>
+        {/* <hr /> */}
         <div className="skills-content">
+          {/* <div className="image-container">
+              <img
+                data-aos="zoom-out"
+                data-aos-delay="10"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="3000"
+                src={require("../../img/programming-01.svg")}
+                className="about-icon"
+                alt="about"
+              />
+            </div> */}
           <div className="icons-container-skills">
-            <h1
+            <h2
               data-aos="zoom-in-right"
               data-aos-delay="10"
               data-aos-anchor-placement="top-bottom"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               Skills & Experience
-            </h1>
-            <div>
-              <p>
+            </h2>
+            <div className="skills-text">
+              <p
+                data-aos="fade-up"
+                data-aos-delay="10"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1200"
+              >
                 The main area of my expertise is front-end development (client
                 side of the web) with experience in interface design and agile
                 methods.
               </p>
-              <p>
+              <p
+                data-aos="fade-up"
+                data-aos-delay="10"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1300"
+              >
                 HTML5, CSS3, JS, node js, firebase building small web projects
                 with React js, custom features, animations and coding
                 interactive and inclusive layouts. Illustrator, Adobe XD and
                 Balsamiq are my day-by-day tools for prototyping.
               </p>
-              <p>
+              <p
+                data-aos="fade-up"
+                data-aos-delay="10"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1400"
+              >
                 I have also experience with illustration and 3D modeling, user
                 experience (UX) with Design thinking tools like research, user
                 interview, co-creating and sketching.
               </p>
+              <div className="cv">
+                <p
+                  data-aos="fade-up"
+                  data-aos-delay="10"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-duration="1500"
+                >
+                  For further details take a look on my
+                </p>
+                <a
+                  href={
+                    "https://drive.google.com/file/d/1uqFf1V3yx1JSYUzH1VtDjlnJC_x7Psx0/view?usp=sharing"
+                  }
+                  target={"_blank"}
+                >
+                  <img
+                    data-aos="fade-up"
+                    data-aos-delay="10"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="1500"
+                    src={require("../../img/cv.svg")}
+                    className="icon-cv"
+                    alt="icon"
+                  />
+                </a>
+              </div>
             </div>
-            <div
-              data-aos="fade-up"
-              data-aos-delay="10"
-              data-aos-anchor-placement="top-bottom"
-              data-aos-duration="3000"
-            >
-              <div>
+            <div className="skills-icons">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="10"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="2000"
+              >
                 <img
                   src={require("../../img/js.svg")}
                   className="icon"
@@ -152,7 +193,13 @@ class About extends React.Component {
                   className="icon"
                   alt="icon"
                 />
-
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-delay="10"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="2100"
+              >
                 <img
                   src={require("../../img/firebase.svg")}
                   className="icon"
@@ -176,7 +223,13 @@ class About extends React.Component {
                   className="icon"
                   alt="icon"
                 />
-
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-delay="10"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="2300"
+              >
                 <img
                   src={require("../../img/jest.svg")}
                   className="icon"
@@ -200,7 +253,13 @@ class About extends React.Component {
                   className="icon"
                   alt="icon"
                 />
-
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-delay="10"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="2500"
+              >
                 <img
                   src={require("../../img/illustrator.svg")}
                   className="icon"

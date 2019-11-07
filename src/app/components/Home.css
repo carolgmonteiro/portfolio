@@ -3,7 +3,8 @@ p {
 }
 
 .home {
-  height: 500px;
+  height: 1000px;
+  min-height: 600px;
   background: url(../../img/background-home-09.svg);
   background-size: cover !important;
   -webkit-background-size: cover !important;
@@ -11,45 +12,47 @@ p {
   flex-wrap: wrap;
 }
 
-.home-content {
-  /* margin-top: 50px; */
+/* .home-content {
+
+  width: 55%;
   margin: 0 auto;
   padding: 10px;
-}
+  margin-right: 3rem;
+} */
 
-.hello-content {
+/* .hello-content {
   margin: 0 auto;
   padding-left: 3rem;
   padding-right: 3rem;
   padding-bottom: 3rem;
   padding-top: 5rem;
   max-width: 570px;
-}
+} */
 
 .button-content {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 4rem;
+  width: 50%;
 }
-
-/* .hi {
-  margin-top: 20px;
-  min-height: 250px;
-  height: 400px;
-} */
 
 .home-icon {
   cursor: pointer;
   height: 300px;
   transition: all 0.3s ease 0s;
 }
-
-.btn-icon {
+.btn {
   position: relative;
-  height: 380px;
-  width: 380px;
-  right: 35px;
-  bottom: 70px;
+  display: flex;
+}
+
+.btn-icon-home {
+  position: relative;
+  height: 562px;
+  width: 562px;
+  right: 45px;
+  bottom: 83px;
   cursor: pointer;
 }
 /* 3D BUTTON */
@@ -126,5 +129,25 @@ p {
   100% {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
+  }
+}
+
+.Typist .Cursor {
+  display: inline-block;
+}
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

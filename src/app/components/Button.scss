@@ -1,6 +1,5 @@
 $rosa: #f2665f;
 $brown: #404040;
-$blue: #1cd3f8;
 $angle: 8px;
 $angle-o: 4px;
 
@@ -10,9 +9,9 @@ $angle-o: 4px;
   transition: all 0.15s linear 0s;
   position: relative;
   display: inline-block;
-  width: 300px;
-  height: 300px;
-  padding: 10px 10px;
+  width: 450px;
+  height: 450px;
+  // padding: 10px 10px;
   background-color: $rosa;
   //   text-transform: uppercase;
   color: $brown;

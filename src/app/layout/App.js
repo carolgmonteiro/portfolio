@@ -17,14 +17,14 @@ class App extends Component {
           pageWrapId={"page-wrap"}
           outerContainerId={"outer-container"}
         />
-        <Col className="nav-logo">
+        {/* <Col className="nav-logo">
           <img
             src={require("../../img/logo-avatar.svg")}
             className="nav-logo"
             alt="Logo"
             onClick={this.scrollToTop}
           />
-        </Col>
+        </Col> */}
         <div id="outer-container">
           <div id="page-wrap">
             <Home id="home" />

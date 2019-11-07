@@ -30,8 +30,8 @@
   margin-left: 3rem;
   margin-right: 3rem;
   margin: 0 auto; */
-  padding-top: 5rem;
-
+  padding-top: 3rem;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -109,12 +109,11 @@
   }
 }
 
-/* .hello-content {
+.hello-content {
   margin: 0 auto;
   padding-left: 3rem;
   padding-right: 3rem;
   padding-bottom: 3rem;
-  padding-top: 2.5rem;
-
-  max-width: 625px;
-} */
+  padding-top: 5rem;
+  max-width: 570px;
+}

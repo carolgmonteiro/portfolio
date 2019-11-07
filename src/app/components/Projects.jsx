@@ -11,6 +11,30 @@ class Projects extends React.Component {
     return (
       <div className="projects" id="projects">
         <div className="projects-content">
+          <div
+            className="hello-content"
+            data-aos="fade-down"
+            data-aos-delay="10"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="3000"
+          >
+            <div className="content">
+              <div className="content__container">
+                <p className="content__container__text">I make digital</p>
+                <ul className="content__container__list">
+                  <li className="content__container__list__item">projects</li>
+
+                  <li className="content__container__list__item">
+                    experiences
+                  </li>
+                  <li className="content__container__list__item">
+                    interactions
+                  </li>
+                  <li className="content__container__list__item">products</li>
+                </ul>
+              </div>
+            </div>
+          </div>
           {/* <h1
             data-aos="zoom-in-right"
             data-aos-delay="10"
