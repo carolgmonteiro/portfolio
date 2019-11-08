@@ -3,8 +3,8 @@ p {
 }
 
 .home {
-  height: 1000px;
-  min-height: 600px;
+  min-height: 800px;
+
   background: url(../../img/background-home-09.svg);
   background-size: cover !important;
   -webkit-background-size: cover !important;
@@ -12,13 +12,14 @@ p {
   flex-wrap: wrap;
 }
 
-/* .home-content {
+.home .text-zone {
+  margin-top: 2%;
+}
 
-  width: 55%;
+.home-content {
   margin: 0 auto;
-  padding: 10px;
-  margin-right: 3rem;
-} */
+  /* padding-right: 5rem; */
+}
 
 /* .hello-content {
   margin: 0 auto;
@@ -33,8 +34,10 @@ p {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 4rem;
-  width: 50%;
+  margin-top: 15%;
+  margin-right: 5rem;
+  float: right;
+  margin-bottom: 5rem;
 }
 
 .home-icon {
@@ -49,8 +52,8 @@ p {
 
 .btn-icon-home {
   position: relative;
-  height: 562px;
-  width: 562px;
+  height: 500px;
+  width: 500px;
   right: 45px;
   bottom: 83px;
   cursor: pointer;
@@ -70,7 +73,17 @@ p {
   }
 }
 
-.demo a {
+@media screen and (max-width: 2000px) and (min-width: 1024px) {
+  /* .btn-icon-home {
+    position: relative;
+    height: 562px;
+    width: 562px;
+    right: 45px;
+    bottom: 83px;
+    cursor: pointer;
+  } */
+}
+/* .demo a {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -130,7 +143,7 @@ p {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
-}
+} */
 
 .Typist .Cursor {
   display: inline-block;

@@ -35,18 +35,9 @@ class Projects extends React.Component {
               </div>
             </div>
           </div>
-          {/* <h1
-            data-aos="zoom-in-right"
-            data-aos-delay="10"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="3000"
-          >
-            Some of my projects...
-          </h1> */}
-          <ProjectsDetails />
-          {/* <div className="icons-container">
-            
-          </div> */}
+          <div className="grid">
+            <ProjectsDetails />
+          </div>
         </div>
       </div>
     );

@@ -23,46 +23,48 @@ class Home extends React.Component {
 
   render() {
     AOS.init();
-    const docs = "//github.com/carolgmonteiro";
+    // const docs = "//github.com/carolgmonteiro";
     return (
       <div className="home" id="home">
-        <div className="TypistExample">
-          <Typist
-            className="TypistExample-header"
-            avgTypingDelay={40}
-            startDelay={2000}
-            onTypingDone={this.onHeaderTyped}
-          >
-            <h2>Hello!</h2>
-            <a href="#about">I`m Carolina</a>
-            <h2>Web developer</h2>
-          </Typist>
-          <div className="TypistExample-content">
-            {this.state.renderMsg ? (
-              <Typist
-                className="TypistExample-message"
-                cursor={{ hideWhenDone: true }}
-              >
-                Front End Developer
-                <br />
-                & Des
-                <Typist.Delay ms={500} />
-                enhad
-                <Typist.Backspace count={5} delay={1000} />
-                <Typist.Delay ms={750} />
-                igner UI_UX
-                <Typist.Delay ms={1250} />
-                <br />
-                <span>
-                  {" "}
-                  <a href="#projects" className="flash">
-                    Take a look on my projects
-                  </a>
-                </span>
-                <br />
-                {""}
-              </Typist>
-            ) : null}
+        <div className="text-zone">
+          <div className="TypistExample">
+            <Typist
+              className="TypistExample-header"
+              avgTypingDelay={40}
+              startDelay={2000}
+              onTypingDone={this.onHeaderTyped}
+            >
+              <h2>Hello!</h2>
+              <a href="#about">I`m Carolina</a>
+              <h2>Web developer</h2>
+            </Typist>
+            <div className="TypistExample-content">
+              {this.state.renderMsg ? (
+                <Typist
+                  className="TypistExample-message"
+                  cursor={{ hideWhenDone: true }}
+                >
+                  Front End Developer
+                  <br />
+                  & Des
+                  <Typist.Delay ms={500} />
+                  enhad
+                  <Typist.Backspace count={5} delay={1000} />
+                  <Typist.Delay ms={750} />
+                  igner UI_UX
+                  <Typist.Delay ms={1250} />
+                  <br />
+                  <span>
+                    {" "}
+                    <a href="#projects" className="flash">
+                      Take a look on my projects
+                    </a>
+                  </span>
+                  <br />
+                  {""}
+                </Typist>
+              ) : null}
+            </div>
           </div>
         </div>
         <div className="home-content">

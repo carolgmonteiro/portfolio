@@ -1,12 +1,26 @@
+.contact {
+  background: #e6f4f3;
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.contact-content {
+  padding-top: 4rem;
+  /* margin: auto; */
+  padding-left: 5rem;
+  width: 100%;
+}
+
 label {
   display: flex;
   margin-bottom: 0.5rem;
 }
-.contact-content {
-  margin-top: 5rem;
-  margin-left: 5rem;
+.icons-container {
+  margin: auto;
+  padding-left: 33%;
 }
-
 .contact-content h1 {
   /* margin-top: 2rem; */
   color: #f0473e;
@@ -18,11 +32,6 @@ label {
 .contact-content p {
   margin-top: 1rem;
   margin-bottom: 0;
-}
-
-.contact {
-  background: #e6f4f3;
-  height: 600px;
 }
 
 .icons-container a:hover {
@@ -40,4 +49,17 @@ label {
 .icon-small label {
   display: inline-flex;
   flex-wrap: wrap;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .contact-content {
+    padding-top: 3rem;
+    /* margin: auto; */
+    padding-left: 1rem;
+  }
+  .icons-container {
+    margin: auto;
+    padding: 3rem;
+    justify-content: center;
+  }
 }
