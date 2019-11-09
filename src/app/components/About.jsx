@@ -2,13 +2,19 @@ import React from "react";
 import "./About.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import { Col } from "reactstrap";
 
 class About extends React.Component {
   render() {
     AOS.init();
     return (
       <div className="about" id="about">
+        <div className="image-container">
+          <img
+            src={require("../../img/programming-01.svg")}
+            className="about-icon"
+            alt="about"
+          />{" "}
+        </div>
         <div className="about-container">
           <h1
             data-aos="zoom-in-right"
@@ -29,17 +35,25 @@ class About extends React.Component {
               <p>
                 I am a brazilian web-designer/front-end developer based in
                 Santiago, Chile.
+                {/* for web design and to learn new tecnologies,
+                helping to transmit complex concepts through design. */}
+              </p>
+              <p>
+                I have passion for developping my creativity and self-learning
+                creating solutions matching design and logic.
+              </p>
+              <p>
+                As a developer, I know hos to create apps or web sites to run
+                across devices using the newest techonologies available
               </p>
               {/* <p>
                 My motivation is constantly keep learning, developping teamwork
                 and transmit complex concepts through design.
               </p> */}
-              <p>
-                My motivation is constantly keep learning, developping teamwork
-                and transmit complex concepts through design. I found in
-                programming a way to develop my creativity and self-learning
-                creating solutions combining design and logic.
-              </p>
+              {/* <p>
+                I found in programming a way to develop my creativity and
+                self-learning creating solutions combining design and logic.
+              </p> */}
               {/* <p>
                 I am ingressing to the technological development market with the
                 aim to help create accessible tools that improve communication
@@ -63,7 +77,7 @@ class About extends React.Component {
                 data-aos-delay="10"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="3000"
-                src={require("../../img/avatar07.svg")}
+                src={require("../../img/avatar10.svg")}
                 alt="about"
               />
             </div>

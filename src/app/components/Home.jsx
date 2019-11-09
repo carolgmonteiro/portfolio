@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Home.css";
-import "./About-animation.scss";
 import "./Button.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -31,7 +30,7 @@ class Home extends React.Component {
             <Typist
               className="TypistExample-header"
               avgTypingDelay={40}
-              startDelay={2000}
+              startDelay={500}
               onTypingDone={this.onHeaderTyped}
             >
               <h2>Hello!</h2>
@@ -46,22 +45,22 @@ class Home extends React.Component {
                 >
                   Front End Developer
                   <br />
-                  & Des
-                  <Typist.Delay ms={500} />
-                  enhad
-                  <Typist.Backspace count={5} delay={1000} />
+                  & UI.UX Des
+                  <Typist.Delay ms={100} />
+                  enh
+                  <Typist.Backspace count={3} delay={1000} />
                   <Typist.Delay ms={750} />
-                  igner UI_UX
+                  igner
                   <Typist.Delay ms={1250} />
+                  <br />
                   <br />
                   <span>
                     {" "}
-                    <a href="#projects" className="flash">
-                      Take a look on my projects
+                    <a href="#contact" className="flash">
+                      Contact me
                     </a>
                   </span>
                   <br />
-                  {""}
                 </Typist>
               ) : null}
             </div>
@@ -71,7 +70,7 @@ class Home extends React.Component {
           <div
             className="button-content"
             data-aos="zoom-out"
-            data-aos-delay="10"
+            data-aos-delay="5000"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="3000"
           >
@@ -86,7 +85,7 @@ class Home extends React.Component {
             >
               {" "}
               <img
-                src={require("../../img/avatar06.svg")}
+                src={require("../../img/avatar09.svg")}
                 className="btn-icon-home"
                 alt="about"
               />

@@ -5,7 +5,7 @@ p {
 .home {
   min-height: 800px;
 
-  background: url(../../img/background-home-09.svg);
+  background: url(../../img/background-home-11.svg);
   background-size: cover !important;
   -webkit-background-size: cover !important;
   display: flex;
@@ -14,6 +14,8 @@ p {
 
 .home .text-zone {
   margin-top: 2%;
+  margin-left: 3%;
+  width: 50%;
 }
 
 .home-content {
@@ -52,10 +54,11 @@ p {
 
 .btn-icon-home {
   position: relative;
-  height: 500px;
-  width: 500px;
-  right: 45px;
-  bottom: 83px;
+  min-height: 250px;
+  height: 460px;
+  width: 460px;
+  right: 24px;
+  bottom: 40px;
   cursor: pointer;
 }
 /* 3D BUTTON */
@@ -66,10 +69,23 @@ p {
 } */
 
 @media (min-width: 360px) and (max-width: 768px) {
-  .hi {
-    margin-top: 30px;
-    min-height: 250px;
-    height: 400px;
+  .btn-icon-home {
+    height: 250px;
+    width: 250px;
+    right: 20px;
+    bottom: 20px;
+  }
+  .button-content {
+    margin-top: 5%;
+    padding-bottom: 25%;
+  }
+  .home .text-zone {
+    width: 100%;
+    height: 40%;
+  }
+  .button-content {
+    margin-top: 1rem;
+    margin-right: 4rem;
   }
 }
 

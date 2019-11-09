@@ -51,9 +51,9 @@ class ProjectsDetails extends PureComponent {
         <li
           className="button-content"
           data-aos="fade-up"
-          data-aos-delay="10"
+          data-aos-delay="30"
           data-aos-anchor-placement="center-bottom"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
         >
           <figure>
             <img
@@ -94,7 +94,7 @@ class ProjectsDetails extends PureComponent {
           data-aos="fade-up"
           data-aos-delay="10"
           data-aos-anchor-placement="center-bottom"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
         >
           <figure>
             <img

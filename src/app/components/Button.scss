@@ -9,7 +9,7 @@ $angle-o: 4px;
   transition: all 0.15s linear 0s;
   position: relative;
   display: inline-block;
-  min-width: 200px;
+
   width: 400px;
   height: 400px;
   // padding: 10px 10px;
@@ -99,4 +99,16 @@ a:active.btn {
     top: 1px;
     left: 1px;
   }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .btn {
+    border-radius: 250px;
+    margin-left: 2rem;
+    width: 210px;
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1024px) {
 }

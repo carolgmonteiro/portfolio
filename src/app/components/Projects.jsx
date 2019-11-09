@@ -4,6 +4,7 @@ import ProjectsDetails from "./ProjectsDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./About-animation.scss";
+// import { Col } from "reactstrap";
 
 class Projects extends React.Component {
   render() {

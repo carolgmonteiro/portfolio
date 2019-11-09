@@ -7,22 +7,53 @@ class Contact extends React.Component {
     return (
       <div className="contact" id="contact">
         <div className="contact-content">
-          <h1>Say hello!</h1>
+          <h1
+            data-aos="zoom-in-right"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1000"
+          >
+            Say hello!
+          </h1>
           <br />
-          <p>
-            <strong>Let´s talk about new ideas over some coffee</strong>
+          <p
+            data-aos="fade-up"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1500"
+          >
+            <strong>Let´s talk about new ideas over some coffee!</strong>
           </p>
           <br />
-          <label className="icon-small">
+          <label
+            className="icon-small"
+            data-aos="fade-up"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="2000"
+          >
             <img src={require("../../img/e-mail.svg")} alt="icon" />
             <p>+56 9 5977-6124 </p>
           </label>
-          <label className="icon-small">
+          <label
+            className="icon-small"
+            data-aos="fade-up"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="2000"
+          >
             <img src={require("../../img/whatsapp.svg")} alt="icon" />
             <p>carolgmonteiro@live.com</p>
           </label>
 
-          <div className="icons-container">
+          <div
+            className="icons-container"
+            data-aos="fade-up"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="2500"
+          >
+            <label>Follow me</label>
             <a
               href={
                 "https://www.linkedin.com/in/carolina-guido-monteiro/?locale=es_ES"
