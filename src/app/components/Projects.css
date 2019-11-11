@@ -1,5 +1,6 @@
 .projects {
-  background: #666565;
+  background: linear-gradient(to bottom, #333333 0%, #9e9d9d 100%);
+  /* background: #666565; */
   color: white;
   display: flex;
   flex-wrap: wrap;
@@ -16,7 +17,7 @@
 
 .projects-content {
   padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 }
 
 .projects-content .hello-content {

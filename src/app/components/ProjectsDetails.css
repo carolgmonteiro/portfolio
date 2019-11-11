@@ -32,7 +32,9 @@
   top: 0;
   left: 0;
   padding: 15px;
-  background: #cfeae8;
+
+  background: linear-gradient(to bottom, #dcf5f3 0%, #aad0d2 100%);
+  /* background: #cfeae8; */
   color: #f0473e;
   height: 300px;
 }

@@ -2,28 +2,30 @@ import React from "react";
 import "./About.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Typist from "react-typist";
+import "./Typist.scss";
 
 class About extends React.Component {
   render() {
     AOS.init();
     return (
       <div className="about" id="about">
-        <div className="image-container">
+        {/* <div className="image-container">
           <img
             src={require("../../img/programming-01.svg")}
             className="about-icon"
             alt="about"
           />{" "}
-        </div>
+        </div> */}
         <div className="about-container">
-          <h1
+          <h2
             data-aos="zoom-in-right"
             data-aos-delay="10"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1000"
           >
             About me
-          </h1>
+          </h2>
           <div className="about-content">
             <div
               className="about-text"
@@ -77,19 +79,19 @@ class About extends React.Component {
                 data-aos-delay="10"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="3000"
-                src={require("../../img/avatar10.svg")}
+                src={require("../../img/avatar11.svg")}
                 alt="about"
               />
             </div>
           </div>
-          <h2
+          <h3
             data-aos="zoom-in-right"
             data-aos-delay="10"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1000"
           >
             Skills & Experience
-          </h2>
+          </h3>
           {/* <hr /> */}
           <div className="skills-content">
             {/* <div className="image-container">
@@ -136,16 +138,43 @@ class About extends React.Component {
                   experience (UX) with Design thinking tools like research, user
                   interview, co-creating and sketching.
                 </p>
+                <br />
+
                 <div className="cv">
-                  <p
+                  {/* <p
                     data-aos="fade-up"
                     data-aos-delay="10"
                     data-aos-anchor-placement="top-bottom"
                     data-aos-duration="1500"
                   >
                     For further details take a look on my
-                  </p>
-                  <a
+                  </p> */}
+
+                  <Typist
+                    className="TypistExample-message"
+                    cursor={{ hideWhenDone: true }}
+                    data-aos="fade-up"
+                    data-aos-delay="10"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="1500"
+                  >
+                    <Typist.Delay ms={750} />
+
+                    <span>
+                      {" "}
+                      <a
+                        href={
+                          "https://drive.google.com/file/d/1uqFf1V3yx1JSYUzH1VtDjlnJC_x7Psx0/view?usp=sharing"
+                        }
+                        target={"_blank"}
+                        className="flash"
+                      >
+                        Ckeck out my curriculum
+                      </a>
+                    </span>
+                    <br />
+                  </Typist>
+                  {/* <a
                     href={
                       "https://drive.google.com/file/d/1uqFf1V3yx1JSYUzH1VtDjlnJC_x7Psx0/view?usp=sharing"
                     }
@@ -160,7 +189,7 @@ class About extends React.Component {
                       className="icon-cv"
                       alt="icon"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="skills-icons">

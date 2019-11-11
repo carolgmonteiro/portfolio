@@ -71,7 +71,7 @@ class Header extends Component {
             }
             target={"_blank"}
           >
-            currículo
+            curriculum
           </a>
           <a
             href={
@@ -80,14 +80,14 @@ class Header extends Component {
             target={"_blank"}
           >
             <img
-              src={require("../../img/linkedin.svg")}
+              src={require("../../img/linkedin-menu.svg")}
               className="icon-menu"
               alt="icon"
             />
           </a>
           <a href={"https://github.com/carolgmonteiro"} target={"_blank"}>
             <img
-              src={require("../../img/github_1.svg")}
+              src={require("../../img/github-menu.svg")}
               className="icon-menu"
               alt="icon"
             />

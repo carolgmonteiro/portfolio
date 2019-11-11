@@ -9,11 +9,11 @@ $angle-o: 4px;
   transition: all 0.15s linear 0s;
   position: relative;
   display: inline-block;
-
-  width: 400px;
-  height: 400px;
+  margin-bottom: 3rem;
+  width: 460px;
+  height: 460px;
   // padding: 10px 10px;
-  background-color: $rosa;
+  background-color: $brown;
   //   text-transform: uppercase;
   color: $brown;
   font-family: arial;
@@ -21,7 +21,7 @@ $angle-o: 4px;
   border-radius: 300px;
   box-shadow: -6px 6px 0 $brown;
   text-decoration: none;
-  border: 3px solid #333333;
+  // border: 3px solid #333333;
 
   &:hover {
     top: 3px;

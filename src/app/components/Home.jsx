@@ -43,15 +43,13 @@ class Home extends React.Component {
                   className="TypistExample-message"
                   cursor={{ hideWhenDone: true }}
                 >
-                  Front End Developer
-                  <br />
-                  & UI.UX Des
-                  <Typist.Delay ms={100} />
+                  Front End Developer & UI.UX Des
+                  <Typist.Delay ms={200} />
                   enh
                   <Typist.Backspace count={3} delay={1000} />
-                  <Typist.Delay ms={750} />
+                  <Typist.Delay ms={500} />
                   igner
-                  <Typist.Delay ms={1250} />
+                  <Typist.Delay ms={750} />
                   <br />
                   <br />
                   <span>
@@ -85,7 +83,7 @@ class Home extends React.Component {
             >
               {" "}
               <img
-                src={require("../../img/avatar09.svg")}
+                src={require("../../img/avatar12.svg")}
                 className="btn-icon-home"
                 alt="about"
               />
