@@ -33,9 +33,9 @@ class Home extends React.Component {
               startDelay={500}
               onTypingDone={this.onHeaderTyped}
             >
-              <h2>Hello!</h2>
-              <a href="#about">I`m Carolina</a>
-              <h2>Web developer</h2>
+              <h1>Hello!</h1>
+              <a href="#about">I'm Carolina</a>
+              <h1>Web developer</h1>
             </Typist>
             <div className="TypistExample-content">
               {this.state.renderMsg ? (
@@ -44,10 +44,10 @@ class Home extends React.Component {
                   cursor={{ hideWhenDone: true }}
                 >
                   Front End Developer & UI.UX Des
-                  <Typist.Delay ms={200} />
+                  <Typist.Delay ms={500} />
                   enh
                   <Typist.Backspace count={3} delay={1000} />
-                  <Typist.Delay ms={500} />
+                  <Typist.Delay ms={750} />
                   igner
                   <Typist.Delay ms={750} />
                   <br />

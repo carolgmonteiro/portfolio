@@ -23,15 +23,15 @@ class ProjectsDetails extends PureComponent {
             />
             <figcaption>
               <h3>Pinterest</h3>
-              <span>October 2019</span>
+              <span>November 2019</span>
               <hr />
               <p>
-                Given a set of image urls (api), I recreated the design of the
-                pinterest Home page.
+                Using the Pixabay API, I recreated the replica of the Pinterest
+                homepage.
               </p>
               <label>
                 <img src={require("../../img/tools.svg")} alt="icon" />
-                <p>React JS, Adobe XD, Balsamiq, libraries and api Pixabay.</p>
+                <p>React JS, Adobe XD, Balsamiq, libraries and Pixabay api.</p>
               </label>
               <a
                 href={"https://github.com/carolgmonteiro/desafio_pinterest"}
@@ -63,7 +63,7 @@ class ProjectsDetails extends PureComponent {
             />
             <figcaption>
               <h3>Burger Queen</h3>
-              <span>September 2019</span>
+              <span>October 2019</span>
               <hr />
               <p>
                 It is an interface designed for restaurants, which allows an
@@ -104,16 +104,16 @@ class ProjectsDetails extends PureComponent {
             />
             <figcaption>
               <h3>MD.Links</h3>
-              <span>August 2019</span>
+              <span>September 2019</span>
               <hr />
               <p>
-                Library created using Node.js that reads and analyzes files in
+                Library created using Node.js, which reads and analyzes files in
                 Markdown format.
               </p>
               <label>
                 <img src={require("../../img/tools.svg")} alt="icon" />
                 <p>
-                  Javascript, Node js, librerias, jest, Adobe XD, Balsamiq,
+                  Javascript, Node js, libraries, jest, Adobe XD, Balsamiq,
                   loom.
                 </p>
               </label>
@@ -150,11 +150,12 @@ class ProjectsDetails extends PureComponent {
             />
             <figcaption>
               <h3>Migra.me</h3>
-              <span>September 2019</span>
+              <span>August 2019</span>
               <hr />
               <p>
-                SPA web app focused on immigrants for searching information
-                about new country home.
+                An immigrant-focused SPA web application that helps them find
+                organized information about housing, visa, culture of the new
+                country home.
               </p>
               <label>
                 <img src={require("../../img/tools.svg")} alt="icon" />

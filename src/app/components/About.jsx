@@ -10,22 +10,25 @@ class About extends React.Component {
     AOS.init();
     return (
       <div className="about" id="about">
-        {/* <div className="image-container">
-          <img
-            src={require("../../img/programming-01.svg")}
-            className="about-icon"
-            alt="about"
-          />{" "}
-        </div> */}
         <div className="about-container">
+          {/* <div>
+            <Typist
+              className="TypistExample-header"
+              avgTypingDelay={70}
+              startDelay={750}
+              cursor={{ hideWhenDone: false }}
+              onTypingDone={this.onHeaderTyped}
+            > */}
           <h2
             data-aos="zoom-in-right"
             data-aos-delay="10"
             data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1000"
+            data-aos-duration="3000"
           >
             About me
           </h2>
+          {/* </Typist>
+          </div> */}
           <div className="about-content">
             <div
               className="about-text"
@@ -35,18 +38,18 @@ class About extends React.Component {
               data-aos-duration="1500"
             >
               <p>
-                I am a brazilian web-designer/front-end developer based in
+                I am a Brazilian web-designer/front-end developer based in
                 Santiago, Chile.
                 {/* for web design and to learn new tecnologies,
                 helping to transmit complex concepts through design. */}
               </p>
               <p>
-                I have passion for developping my creativity and self-learning
-                creating solutions matching design and logic.
+                I have a passion for developing my creativity and self-learning
+                by creating solutions which combine design and logic.
               </p>
               <p>
-                As a developer, I know hos to create apps or web sites to run
-                across devices using the newest techonologies available
+                As a developer, I create apps and web sites for multiple devices
+                using the newest techonologies available.
               </p>
               {/* <p>
                 My motivation is constantly keep learning, developping teamwork
@@ -64,8 +67,7 @@ class About extends React.Component {
               <p>
                 My aim is to participate not only in the construction of more
                 diverse, comprehensive and inclusive applications and tools but
-                also of processes of digital transformation of organizations in
-                general.
+                also of processes of digital transformation of organizations.
               </p>
               <p>
                 I speak <strong>native Portuguese</strong>,{" "}
@@ -84,27 +86,10 @@ class About extends React.Component {
               />
             </div>
           </div>
-          <h3
-            data-aos="zoom-in-right"
-            data-aos-delay="10"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1000"
-          >
-            Skills & Experience
-          </h3>
-          {/* <hr /> */}
+
+          <h3>Skills & Experience</h3>
+
           <div className="skills-content">
-            {/* <div className="image-container">
-              <img
-                data-aos="zoom-out"
-                data-aos-delay="10"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-duration="3000"
-                src={require("../../img/programming-01.svg")}
-                className="about-icon"
-                alt="about"
-              />
-            </div> */}
             <div className="icons-container-skills">
               <div className="skills-text">
                 <p
@@ -113,7 +98,7 @@ class About extends React.Component {
                   data-aos-anchor-placement="top-bottom"
                   data-aos-duration="1200"
                 >
-                  The main area of my expertise is front-end development (client
+                  My main area of expertise is front-end development (client
                   side of the web) with experience in interface design and agile
                   methods.
                 </p>
@@ -135,8 +120,8 @@ class About extends React.Component {
                   data-aos-duration="1400"
                 >
                   I have also experience with illustration and 3D modeling, user
-                  experience (UX) with Design thinking tools like research, user
-                  interview, co-creating and sketching.
+                  experience (UX) with Design thinking tools such as research,
+                  user interview, co-creating and sketching.
                 </p>
                 <br />
 
@@ -164,7 +149,7 @@ class About extends React.Component {
                       {" "}
                       <a
                         href={
-                          "https://drive.google.com/file/d/1uqFf1V3yx1JSYUzH1VtDjlnJC_x7Psx0/view?usp=sharing"
+                          "https://drive.google.com/file/d/1Pc5Zq2BG3ctPQG__0CuFCohb-C-utZaR/view?usp=sharing"
                         }
                         target={"_blank"}
                         className="flash"

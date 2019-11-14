@@ -162,13 +162,13 @@ p {
   }
 } */
 
-.Typist .Cursor {
+/* .Typist .Cursor {
   display: inline-block;
 }
 .Typist .Cursor--blinking {
   opacity: 1;
   animation: blink 1s linear infinite;
-}
+} */
 
 @keyframes blink {
   0% {
