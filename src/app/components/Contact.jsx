@@ -7,42 +7,86 @@ class Contact extends React.Component {
     return (
       <div className="contact" id="contact">
         <div className="contact-content">
-          <h1>Say hello!</h1>
-          <p>+56 9 5977-6124 </p>
-          <p>carolgmonteiro@live.com</p>
-        </div>
-        <div className="icons-container">
-          <a
-            href={
-              "https://www.linkedin.com/in/carolina-guido-monteiro/?locale=es_ES"
-            }
+          <h1
+            data-aos="zoom-in-right"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1000"
           >
-            <img
-              src={require("../../img/linkedin.svg")}
-              className="icon"
-              alt="icon"
-            />
-          </a>
-          <a href={"https://github.com/carolgmonteiro"} target={"_blank"}>
-            <img
-              src={require("../../img/github_1.svg")}
-              className="icon"
-              alt="icon"
-            />
-          </a>
-          <a
-            href={
-              "https://issuu.com/carolinaguido/docs/_sketchbook_carolina_guido_jan17"
-            }
-            target={"_blank"}
+            Say hello!
+          </h1>
+          <br />
+          <p
+            data-aos="fade-up"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1500"
           >
-            <img
-              src={require("../../img/design.svg")}
-              className="icon"
-              alt="icon"
+            <strong>Let´s talk about new ideas over some coffee!</strong>
+          </p>
+          <br />
+          <label
+            className="icon-small"
+            data-aos="fade-up"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="2000"
+          >
+            <img src={require("../../img/e-mail.svg")} alt="icon" />
+            <p>+56 9 5977-6124 </p>
+          </label>
+          <label
+            className="icon-small"
+            data-aos="fade-up"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="2000"
+          >
+            <img src={require("../../img/whatsapp.svg")} alt="icon" />
+            <p>carolgmonteiro@live.com</p>
+          </label>
+
+          <div
+            className="icons-container"
+            data-aos="fade-up"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="2500"
+          >
+            <label>Follow me</label>
+            <a
+              href={
+                "https://www.linkedin.com/in/carolina-guido-monteiro/?locale=es_ES"
+              }
               target={"_blank"}
-            />
-          </a>
+            >
+              <img
+                src={require("../../img/linkedin.svg")}
+                className="icon"
+                alt="icon"
+              />
+            </a>
+            <a href={"https://github.com/carolgmonteiro"} target={"_blank"}>
+              <img
+                src={require("../../img/github_1.svg")}
+                className="icon"
+                alt="icon"
+              />
+            </a>
+            <a
+              href={
+                "https://issuu.com/carolinaguido/docs/_sketchbook_carolina_guido_jan17"
+              }
+              target={"_blank"}
+            >
+              <img
+                src={require("../../img/design.svg")}
+                className="icon"
+                alt="icon"
+                target={"_blank"}
+              />
+            </a>
+          </div>
         </div>
       </div>
     );

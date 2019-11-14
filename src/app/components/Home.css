@@ -1,69 +1,183 @@
+p {
+  color: #333333;
+}
+
 .home {
   height: 600px;
-  background: url(../../img/background-home-03.svg);
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
+  background: linear-gradient(to bottom, #e3cac7 0%, #aad0d2 100%);
+  /* background-color: #333333; */
+  /* background: url(../../img/background-home-11.svg); */
+  /* background-size: cover !important;
+  -webkit-background-size: cover !important; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home .text-zone {
+  margin-top: 2%;
+  margin-left: 3%;
+  width: 50%;
 }
 
 .home-content {
-  padding-top: 50px;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 10px;
+  /* margin: 0 auto; */
+  /* padding-right: 5rem; */
 }
+
+/* .hello-content {
+  margin: 0 auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 5rem;
+  max-width: 570px;
+} */
 
 .button-content {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-}
-
-.hi {
-  min-height: 300px;
-  height: 450px;
+  margin-top: 10%;
+  margin-right: 5rem;
+  float: right;
+  padding-bottom: 5rem;
 }
 
 .home-icon {
   cursor: pointer;
-  height: 200px;
-
+  height: 300px;
   transition: all 0.3s ease 0s;
 }
+.btn {
+  position: relative;
+  display: flex;
+}
 
-.hi:hover {
+.btn-icon-home {
+  position: relative;
+  min-height: 250px;
+  height: 465px;
+  width: 465px;
+  right: 15px;
+  bottom: 9px;
+  cursor: pointer;
+}
+/* 3D BUTTON */
+
+/* .hi:hover {
   cursor: pointer;
   filter: brightness(0.8);
+} */
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .btn-icon-home {
+    height: 250px;
+    width: 250px;
+    right: 20px;
+    bottom: 20px;
+  }
+  .button-content {
+    margin-top: 5%;
+    padding-bottom: 25%;
+  }
+  .home .text-zone {
+    width: 100%;
+    height: 40%;
+  }
+  .button-content {
+    margin-top: 1rem;
+    margin-right: 4rem;
+  }
 }
 
-/* .btn:focus,
-.btn::-moz-focus-inner {
-  outline: none;
-  border: none;
+@media screen and (max-width: 2000px) and (min-width: 1024px) {
+  /* .btn-icon-home {
+    position: relative;
+    height: 562px;
+    width: 562px;
+    right: 45px;
+    bottom: 83px;
+    cursor: pointer;
+  } */
 }
-.btn {
-  font-family: arial;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 700;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
+/* .demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
   display: inline-block;
-  text-decoration: none;
-}
-.btn-green {
-  background: green;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
   color: #fff;
-  box-shadow: 0 5px 0 #006000;
+  font: normal 400 20px/1 "Josefin Sans", sans-serif;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: opacity 0.3s;
 }
-.btn-green:hover {
-  background: #006000;
-  box-shadow: 0 5px 0 #003f00;
+.demo a:hover {
+  opacity: 0.5;
 }
-.btn-green:active,
-.btn-purple:active,
-.btn-red:active {
-  position: relative;
-  top: 5px;
-  box-shadow: none;
+#section05 a {
+  padding-top: 120px;
+}
+#section05 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
 } */
+
+/* .Typist .Cursor {
+  display: inline-block;
+}
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite;
+} */
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

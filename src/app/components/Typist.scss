@@ -1,0 +1,159 @@
+.TypistExample {
+  font-family: "Lato", sans-serif;
+  line-height: 1.7;
+  margin-left: 3rem;
+  margin-top: 4rem;
+}
+
+.TypistExample a {
+  color: #4b6064;
+  // color: azure;
+  font-size: 50px;
+  //   font-family: "Lato", sans-serif;
+  font-weight: 800;
+  background: linear-gradient(to bottom, #f0473e 0%, #f0473e 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
+.TypistExample a:hover {
+  background-color: #f0473e;
+  color: white;
+  text-decoration: none;
+  background-size: 6px 50px;
+}
+
+.TypistExample-header-img a {
+  margin-bottom: 5rem;
+}
+// .TypistExample h1:before {
+//   content: "<h1>";
+//   font-family: "La Belle Aurore", cursive;
+//   color: #515152;
+//   font-size: 18px;
+//   position: absolute;
+//   margin-top: -40px;
+//   left: -15px;
+// }
+// .TypistExample h1:after {
+//   content: "<h1/>";
+//   font-family: "La Belle Aurore", cursive;
+//   color: #515152;
+//   font-size: 18px;
+//   position: absolute;
+//   margin-top: 18px;
+//   margin-left: 20px;
+//   -webkit-animation: myanim2 1s 1.7s backwards;
+//   animation: myanim2 1s 1.7s backwards;
+// }
+.TypistExample h1 {
+  color: #4b6064;
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite;
+}
+.Typist .Cursor {
+  display: inline-block;
+  font-size: 22px;
+}
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite;
+}
+
+.TypistExample-message {
+  color: #4b6064;
+  width: 400px;
+  // margin: auto;
+  font-size: 22px;
+}
+
+.TypistExample-message .flash {
+  border: #f0473e 1px solid;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 30px;
+  color: #f0473e;
+  font-weight: bold;
+  text-decoration: none;
+  animation-name: blinker;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.TypistExample-message a {
+  color: inherit;
+  font-size: 22px;
+  font-family: "Lato", sans-serif;
+}
+
+.TypistExample-message-btn {
+  display: flex;
+  z-index: inherit 2;
+  padding: 0;
+}
+
+.TypistExample-message-btn .flash {
+  color: #f0473e;
+  font-weight: bold;
+  text-decoration: none;
+  animation-name: blinker;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.TypistExample-message-btn a {
+  color: inherit;
+  font-size: 22px;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .TypistExample {
+    line-height: 1.6;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  .TypistExample h2 {
+    color: #4b6064;
+    font-size: 40px;
+    font-weight: 1000;
+  }
+  .TypistExample a {
+    font-size: 40px;
+  }
+  .TypistExample-message {
+    color: #4b6064;
+    width: 300px;
+    margin: auto;
+    font-size: 20px;
+  }
+  .TypistExample-message .flash {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1024px) {
+}

@@ -1,58 +1,69 @@
 .projects {
-  background: #333;
-  /* height: 800px; */
+  background: linear-gradient(to bottom, #333333 0%, #9e9d9d 100%);
+  /* background: #666565; */
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects-content .grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 2rem;
+  max-width: 1400px;
+  margin: auto;
+  list-style: none;
+  height: 100%;
 }
 
 .projects-content {
-  max-width: 800px;
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+}
+
+.projects-content .hello-content {
   margin: 0 auto;
-  padding: 40px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  max-width: 570px;
 }
 
-.icons-container {
+/* .projects-content .project-blocks-content {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.icon-project {
-  height: 350px;
-  padding: 10px;
-}
-.project-content {
-  background-color: #aad0d2;
-  height: 500px;
-  width: 350px;
-  margin: 5px;
-  transition: all 0.3s ease 0s;
-}
-.project-content:hover {
-  filter: brightness(1.1);
-}
-.code {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+} */
 
-.code p {
-  font-size: 12px;
-}
-.code a {
-  text-decoration: none;
-  color: #333;
-  transition: all 0.3s ease 0s;
-}
-.code a:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  text-decoration: none;
-  color: #f2665f;
-}
-.icon-code {
-  height: 70px;
-  justify-content: space-around;
-  padding: 5px;
+@media (min-width: 360px) and (max-width: 768px) {
+  .projects-content {
+    margin: auto;
+  }
+
+  .projects-content .hello-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1.5rem;
+    padding-right: 0.3rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    max-width: 360px;
+  }
+  .projects-content h2 {
+    padding-bottom: 10px;
+    font-weight: 800;
+    font-size: 50px;
+  }
+  .icon-project {
+    height: 300px;
+    padding: 10px;
+  }
+  .project-content {
+    background-color: #aad0d2;
+    height: 500px;
+    width: 400px;
+    margin: 5px;
+    transition: all 0.3s ease 0s;
+  }
 }
