@@ -11,6 +11,8 @@ p {
   -webkit-background-size: cover !important; */
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .home .text-zone {
@@ -70,6 +72,20 @@ p {
 } */
 
 @media (min-width: 360px) and (max-width: 768px) {
+  .home {
+    min-height: 800px;
+    background: linear-gradient(to bottom, #e3cac7 0%, #aad0d2 100%);
+    /* background-color: #333333; */
+    /* background: url(../../img/background-home-11.svg); */
+    /* background-size: cover !important;
+    -webkit-background-size: cover !important; */
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
   .btn-icon-home {
     height: 250px;
     width: 250px;

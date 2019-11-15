@@ -1,6 +1,10 @@
 html,
 body {
-  margin: 0;
+  margin: auto;
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 #App {
