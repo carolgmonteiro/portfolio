@@ -81,7 +81,9 @@ class ProjectsDetails extends PureComponent {
                 Demo
               </a>
               <a
-                href={"https://github.com/adrievelyn/SCL010-Burger-Queen"}
+                href={
+                  "https://github.com/carolgmonteiro/SCL010-Burger-Queen-V02"
+                }
                 target={"_blank"}
               >
                 Code
@@ -166,7 +168,7 @@ class ProjectsDetails extends PureComponent {
               </label>
               <a
                 href={
-                  "https://dacoquima.github.io/SCL010-Social-Network/src/#/home"
+                  "https://daniela-quintana.github.io/SCL010-Social-Network/src/#/home"
                 }
                 target={"_blank"}
               >

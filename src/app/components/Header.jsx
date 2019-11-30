@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Header.css";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { Col } from "reactstrap";
+// import { Col } from "reactstrap";
 import { elastic as Menu } from "react-burger-menu";
 
 class Header extends Component {

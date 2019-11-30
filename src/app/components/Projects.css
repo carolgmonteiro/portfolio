@@ -1,4 +1,5 @@
 .projects {
+  min-height: 100vh;
   background: linear-gradient(to bottom, #333333 0%, #9e9d9d 100%);
   /* background: #666565; */
   color: white;

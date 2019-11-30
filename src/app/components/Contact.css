@@ -1,6 +1,6 @@
 .contact {
   background: #e6f4f3;
-  min-height: 500px;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
