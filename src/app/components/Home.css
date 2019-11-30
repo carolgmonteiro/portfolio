@@ -3,8 +3,9 @@ p {
 }
 
 .home {
-  height: 600px;
-  background: linear-gradient(to bottom, #e3cac7 0%, #aad0d2 100%);
+  min-height: 100vh;
+  background: #aad0d2;
+  /* background: linear-gradient(to bottom, white 0%, #aad0d2 100%); */
   /* background-color: #333333; */
   /* background: url(../../img/background-home-11.svg); */
   /* background-size: cover !important;
@@ -74,7 +75,7 @@ p {
 @media (min-width: 360px) and (max-width: 768px) {
   .home {
     min-height: 800px;
-    background: linear-gradient(to bottom, #e3cac7 0%, #aad0d2 100%);
+    background: linear-gradient(to bottom, white 0%, #aad0d2 100%);
     /* background-color: #333333; */
     /* background: url(../../img/background-home-11.svg); */
     /* background-size: cover !important;

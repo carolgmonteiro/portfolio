@@ -5,8 +5,9 @@ p {
   color: #4b6064;
 }
 .about {
-  min-height: 850px;
-  background: linear-gradient(to bottom, white 0%, #aad0d2 100%);
+  min-height: 100vh;
+  background: #c0dddf;
+  /* background: linear-gradient(to bottom, white 0%, #aad0d2 100%); */
   /* background: #cfeae8; */
   margin: 0 auto;
   padding: 2rem;
