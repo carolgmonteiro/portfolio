@@ -1,53 +1,57 @@
 import React from "react";
 import "./Contact.css";
+
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Contact extends React.Component {
   render() {
     return (
       <div className="contact" id="contact">
-        <div className="contact-content">
-          <h1
-            data-aos="zoom-in-right"
-            data-aos-delay="10"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1000"
-          >
-            Say hello!
-          </h1>
-          <br />
-          <p
-            data-aos="fade-up"
-            data-aos-delay="10"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1500"
-          >
-            <strong>Let´s talk about new ideas over some coffee!</strong>
-          </p>
-          <br />
-          <label
-            className="icon-small"
-            data-aos="fade-up"
-            data-aos-delay="10"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="2000"
-          >
-            <img src={require("../../img/e-mail.svg")} alt="icon" />
-            <p>+56 9 5977-6124 </p>
-          </label>
-          <label
-            className="icon-small"
-            data-aos="fade-up"
-            data-aos-delay="10"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="2000"
-          >
-            <img src={require("../../img/whatsapp.svg")} alt="icon" />
-            <p>carolgmonteiro@live.com</p>
-          </label>
+        <h1
+          data-aos="zoom-in-right"
+          data-aos-delay="10"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="1000"
+        >
+          Say hello!
+        </h1>
+        <br />
 
+        <div className="contact-content">
+          <div className="contact-info">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="10"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <strong>Let´s talk about new ideas over some coffee!</strong>
+            </p>
+            <br />
+            <label
+              className="icon-small"
+              data-aos="fade-up"
+              data-aos-delay="10"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="2000"
+            >
+              <img src={require("../../img/e-mail.svg")} alt="icon" />
+              <p>+56 9 5977-6124 </p>
+            </label>
+
+            <label
+              className="icon-small"
+              data-aos="fade-up"
+              data-aos-delay="10"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="2000"
+            >
+              <img src={require("../../img/whatsapp.svg")} alt="icon" />
+              <p>carolgmonteiro@live.com</p>
+            </label>
+          </div>
           <div
-            className="icons-container"
+            className="icons-follow-me"
             data-aos="fade-up"
             data-aos-delay="10"
             data-aos-anchor-placement="top-bottom"

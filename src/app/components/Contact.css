@@ -1,29 +1,32 @@
 .contact {
   background: #e6f4f3;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  padding-left: 3rem;
 }
 
 .contact-content {
-  padding-top: 4rem;
-  /* margin: auto; */
-  padding-left: 5rem;
+  /* padding-top: 2rem; */
+  display: inline-flex;
+  padding-left: 2rem;
   width: 100%;
 }
-
+.contact-info {
+  width: 50%;
+}
 label {
   display: flex;
   margin-bottom: 0.5rem;
 }
-.icons-container {
-  margin: auto;
-  padding-left: 33%;
-  width: 100%;
+.icons-follow-me {
+  padding-top: 4rem;
+  margin: 0 auto;
+  width: 50%;
 }
 
-.icons-container label {
+.icons-follow-me label {
   /* padding-left: 25%; */
 
   text-align: center;
@@ -34,8 +37,10 @@ label {
   color: #4b6064;
   font-weight: 600;
 }
-.contact-content h1 {
+.contact h1 {
   /* margin-top: 2rem; */
+  padding-top: 3rem;
+  padding-left: 3rem;
   color: #f0473e;
   font-family: "Lato";
   font-weight: 800;
@@ -48,7 +53,7 @@ label {
   font-size: 20px;
 }
 
-.icons-container a:hover {
+.icons-follow-me a:hover {
   filter: brightness(0.7);
   /* fill: #000000; */
 }
@@ -67,13 +72,13 @@ label {
 
 @media (min-width: 360px) and (max-width: 768px) {
   .contact-content {
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
     /* margin: auto; */
     padding-left: 1rem;
   }
-  .icons-container {
+  .icons-follow-me {
     margin: auto;
-    padding: 3rem;
+    /* padding: 3rem; */
     justify-content: center;
   }
 }
