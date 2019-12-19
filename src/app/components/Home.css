@@ -4,16 +4,13 @@ p {
 
 .home {
   min-height: 100vh;
-  background: #aad0d2;
-  /* background: linear-gradient(to bottom, white 0%, #aad0d2 100%); */
-  /* background-color: #333333; */
-  /* background: url(../../img/background-home-11.svg); */
-  /* background-size: cover !important;
-  -webkit-background-size: cover !important; */
+  /* background: #aad0d2; */
+  background: #333333;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
+  font-family: "Lato", sans-serif;
 }
 
 .home .text-zone {
@@ -21,11 +18,6 @@ p {
   margin-left: 3%;
   width: 50%;
 }
-
-/* .home-content {
-  margin: 0 auto; 
-  padding-right: 5rem;
-} */
 
 .button-content {
   justify-content: center;
@@ -52,21 +44,14 @@ p {
   min-height: 250px;
   height: 465px;
   width: 465px;
-
   top: 50%;
-  /* cursor: pointer; */
 }
-/* 3D BUTTON */
-
-/* .hi:hover {
-  cursor: pointer;
-  filter: brightness(0.8);
-} */
 
 @media (min-width: 360px) and (max-width: 768px) {
   .home {
     min-height: 800px;
-    background: linear-gradient(to bottom, white 0%, #aad0d2 100%);
+    /* background: linear-gradient(to bottom, white 0%, #aad0d2 100%); */
+    background: #333333;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -74,35 +59,36 @@ p {
   }
 
   .btn-icon-home {
-    height: 250px;
-    width: 250px;
-    right: 20px;
-    bottom: 20px;
+    height: 220px;
+    right: 1rem;
+    bottom: 2rem;
+    margin-left: 2rem;
   }
-  .button-content {
-    margin-top: 5%;
-    padding-bottom: 25%;
-  }
+
   .home .text-zone {
     width: 100%;
     height: 40%;
   }
   .button-content {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 1rem;
-    margin-right: 4rem;
+    margin-right: 1rem;
+    float: right;
+  }
+  .demo {
+    position: absolute;
+    top: 90%;
+    left: 48%;
+    z-index: 2;
+    display: inline-block;
   }
 }
-
+/* 
 @media screen and (max-width: 2000px) and (min-width: 1024px) {
-  /* .btn-icon-home {
-    position: relative;
-    height: 562px;
-    width: 562px;
-    right: 45px;
-    bottom: 83px;
-    cursor: pointer;
-  } */
-}
+
+} */
 .demo {
   position: absolute;
   top: 80%;

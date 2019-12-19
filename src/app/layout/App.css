@@ -1,20 +1,12 @@
 html,
 body {
-  /* min-height: 100vh; */
+  min-height: 100vh;
+  min-width: 100vw;
   margin: auto;
   /* display: flex; */
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-}
-
-#App {
-  /* font-family: "brandon-grotesque", "HelveticaNeue-Light",
-    "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
-    sans-serif; */
-
-  /* Give app full page to work with */
-  height: 100vh;
 }
 
 #page-wrap {

@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
+  font-family: "Lato", sans-serif;
 }
 .projects-content .grid {
   display: flex;
@@ -21,7 +22,7 @@
 .projects-content {
   padding-top: 3rem;
   margin: auto;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .projects-content .hello-content {

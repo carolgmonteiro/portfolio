@@ -1,12 +1,6 @@
-/* .grid {
-  padding-right: 2rem;
-
-  padding-bottom: 5rem;
-  max-width: 1400px;
-  margin: 0 auto;
-  list-style: none;
-  height: 100%;
-} */
+.grid {
+  font-family: "Lato", sans-serif;
+}
 
 .grid li {
   display: inline-block;
@@ -111,7 +105,7 @@
   background-size: 4px 50px;
 }
 
-@media screen and (max-width: 31.5em) {
+@media (min-width: 360px) and (max-width: 768px) {
   .grid {
     padding: 10px 10px 100px 10px;
   }
@@ -126,13 +120,22 @@
     position: relative;
     margin-bottom: 10px;
   }
+  /* .grid figcaption {
+    height: 100%;
+    width: 80%;
+    opacity: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.3s, opacity 0.3s;
+  } */
   .grid figcaption {
     position: absolute;
+    width: 80%;
     top: 0;
     left: 0;
     padding: 10px;
-
-    min-height: 300px;
+    min-height: 200px;
   }
   .grid figcaption p {
     font-size: 14px;

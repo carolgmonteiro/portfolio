@@ -6,7 +6,8 @@
 }
 
 .TypistExample a {
-  color: #4b6064;
+  // color: #4b6064;
+  color: #b1dee7;
   // color: azure;
   font-size: 50px;
   //   font-family: "Lato", sans-serif;
@@ -49,7 +50,7 @@
 //   animation: myanim2 1s 1.7s backwards;
 // }
 .TypistExample h1 {
-  color: #4b6064;
+  color: #b1dee7;
   font-size: 50px;
   font-weight: 1000;
 }
@@ -68,7 +69,7 @@
 }
 
 .TypistExample-message {
-  color: #4b6064;
+  color: #b1dee7;
   width: 400px;
   // margin: auto;
   font-size: 22px;
@@ -137,21 +138,22 @@
   }
 
   .TypistExample h1 {
-    color: #4b6064;
+    color: #b1dee7;
     font-size: 40px;
     font-weight: 1000;
   }
   .TypistExample a {
     font-size: 40px;
+    margin-bottom: 1rem;
   }
   .TypistExample-message {
-    color: #4b6064;
+    color: #b1dee7;
     width: 300px;
     margin: auto;
-    font-size: 20px;
+    font-size: 18px !important;
   }
   .TypistExample-message .flash {
-    font-size: 20px;
+    font-size: 18px !important;
   }
 }
 
