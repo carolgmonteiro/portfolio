@@ -1,19 +1,20 @@
 .footer {
-  background: #aad0d2;
+  font-size: 16px;
+  background: #e6f4f3;
   height: 100px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 2rem;
   width: 100%;
-
   display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 @media (min-width: 360px) and (max-width: 768px) {
   .footer {
     height: 100px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2rem;
 
     display: flex;
     text-align: center;

@@ -105,14 +105,8 @@ p {
 }
 .skills-image {
   background-color: #e3cac7;
-
   height: 200px;
 }
-
-/* .skills-content p {
-  margin-left: 1rem;
-  margin-right: 1rem;
-} */
 
 .icons img {
   transition: all 0.3s ease 0s;
@@ -151,7 +145,7 @@ p {
 @media (min-width: 360px) and (max-width: 768px) {
   .about {
     min-height: 850px;
-    background: linear-gradient(to bottom, white 0%, #aad0d2 100%);
+
     /* background: #cfeae8; */
     margin: 0 auto;
     padding: 0;
