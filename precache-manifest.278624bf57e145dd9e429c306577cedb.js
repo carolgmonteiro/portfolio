@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d750a0c00a517dd13eb4bbe4b698e7b",
+    "revision": "986442f0e7856ab2cee2f8852b99927b",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.6b6bae48.chunk.css"
   },
   {
-    "revision": "e492ed349bdce1da3cf1",
-    "url": "/portfolio/static/css/main.40ef08be.chunk.css"
+    "revision": "de86f3c2b22bf200c7aa",
+    "url": "/portfolio/static/css/main.42bfe0ba.chunk.css"
   },
   {
     "revision": "51c5ec9821316b3074a8",
     "url": "/portfolio/static/js/2.427f7122.chunk.js"
   },
   {
-    "revision": "e492ed349bdce1da3cf1",
-    "url": "/portfolio/static/js/main.a921a318.chunk.js"
+    "revision": "de86f3c2b22bf200c7aa",
+    "url": "/portfolio/static/js/main.c7c43f50.chunk.js"
   },
   {
     "revision": "c5306228cc83f6f6271c",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/avatar11.dca42ece.svg"
   },
   {
-    "revision": "131ce99c08c758a557251a5d74384760",
-    "url": "/portfolio/static/media/avatar12.131ce99c.svg"
+    "revision": "0561dc98348f516ab18cc10d930685c9",
+    "url": "/portfolio/static/media/avatar13.0561dc98.svg"
   },
   {
     "revision": "cec1e3e873f7d44875469d857958ea82",
@@ -68,10 +68,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/git.7a6515ea.svg"
   },
   {
-    "revision": "74d54fe264605f2aa04ad0386f50b977",
-    "url": "/portfolio/static/media/github-menu.74d54fe2.svg"
-  },
-  {
     "revision": "434140bc67a9db33c33d59b3ba9c44c3",
     "url": "/portfolio/static/media/github.434140bc.svg"
   },
@@ -96,12 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/js.6e165625.svg"
   },
   {
-    "revision": "6cc50f8dec74197b5aaa644a1ace36af",
-    "url": "/portfolio/static/media/linkedin-menu.6cc50f8d.svg"
-  },
-  {
     "revision": "7067b7dba7d475f003618e224a273555",
     "url": "/portfolio/static/media/linkedin.7067b7db.svg"
+  },
+  {
+    "revision": "c33658666a35c2316b8e87ab0aae4b26",
+    "url": "/portfolio/static/media/logo-avatar-01.c3365866.svg"
   },
   {
     "revision": "a0aac93639766b64c53691a9ee3b6a55",
