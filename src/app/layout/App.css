@@ -2,7 +2,7 @@ html,
 body {
   min-height: 100vh;
   min-width: 100vw;
-  margin: auto;
+
   /* display: flex; */
   flex-wrap: wrap;
   justify-content: center;
@@ -13,5 +13,5 @@ body {
   text-align: left;
 
   /* Prevent sidebar from showing a scrollbar on page */
-  overflow: auto;
+  overflow: 0 auto !important;
 }

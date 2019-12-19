@@ -43,7 +43,7 @@ p {
   position: relative;
   min-height: 250px;
   height: 465px;
-  width: 465px;
+  /* width: 465px; */
   top: 50%;
 }
 
@@ -59,10 +59,10 @@ p {
   }
 
   .btn-icon-home {
-    height: 220px;
-    right: 1rem;
-    bottom: 2rem;
-    margin-left: 2rem;
+    height: 280px;
+    right: 0;
+    bottom: 3rem;
+    margin-left: 0;
   }
 
   .home .text-zone {
@@ -73,9 +73,10 @@ p {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 1rem;
-    margin-right: 1rem;
+    margin-top: 0;
+    margin-right: 0;
     float: right;
+    padding-bottom: 3rem;
   }
   .demo {
     position: absolute;

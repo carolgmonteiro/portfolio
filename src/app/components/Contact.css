@@ -80,9 +80,12 @@ label {
     padding-left: 2rem;
   }
   .contact-content {
-    padding-left: 1rem;
+    padding-left: 0;
     display: flex;
     flex-wrap: wrap;
+  }
+  .contact-content p {
+    font-size: 16px;
   }
 
   .contact-info {
@@ -98,5 +101,10 @@ label {
     padding-bottom: 1rem;
     margin: 0 auto;
     width: 100%;
+  }
+
+  .icons-follow-me label {
+    font-size: 18px;
+    font-weight: 800;
   }
 }
