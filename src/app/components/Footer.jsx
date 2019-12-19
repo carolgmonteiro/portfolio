@@ -5,7 +5,9 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <p>© 2019 Carolina Guido. All rights reserved.</p>
+        <p>
+          © 2019 Created and Designed by Carolina Guido. All rights reserved.
+        </p>
       </div>
     );
   }

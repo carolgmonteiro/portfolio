@@ -83,7 +83,7 @@ class Home extends React.Component {
             > */}
 
             <img
-              src={require("../../img/avatar12.svg")}
+              src={require("../../img/avatar13.svg")}
               className="btn-icon-home"
               alt="about"
             />
