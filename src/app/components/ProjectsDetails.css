@@ -75,16 +75,6 @@
   content: "on ";
 }
 
-/* .grid figcaption a {
-  text-align: center;
-  margin-right: 10px;
-  padding: 5px 10px;
-  border-radius: 2px;
-  display: inline-block;
-  background: #f2665f;
-  color: #fff;
-} */
-
 .grid figcaption a {
   font-size: 20px;
   display: inline;
@@ -114,67 +104,6 @@
   transform: translate(15px, 15px);
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
-  .grid {
-    padding: 10px 10px 100px 10px;
-  }
-
-  .grid li {
-    display: inline-block;
-    /* width: 300px; */
-    height: 300px;
-    margin: 0;
-    padding: 5px;
-    text-align: left;
-    position: relative;
-    margin-bottom: 10px;
-  }
-  /* .grid figcaption {
-    height: 100%;
-    width: 80%;
-    opacity: 0;
-    text-align: center;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transition: transform 0.3s, opacity 0.3s;
-  } */
-  .grid figcaption {
-    position: absolute;
-    width: 80% !important;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    min-height: 100% !important;
-  }
-  .grid figcaption p {
-    font-size: 14px;
-    text-align: left;
-    margin-left: 3px;
-    padding: 0;
-    margin-top: 3px;
-    padding-bottom: 3px;
-    font-family: "Lato", sans-serif;
-  }
-  .grid figcaption h3 {
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 3px;
-    font-family: "Lato", sans-serif;
-  }
-
-  .grid figcaption span {
-    margin-bottom: 5px;
-    font-size: 14px;
-    font-family: "Lato", sans-serif;
-  }
-  .grid figcaption img {
-    width: 30px;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-bottom: 10px;
-  }
-}
-
 .grid figcaption {
   height: 100%;
   width: 100%;
@@ -200,9 +129,25 @@
   transition: transform 0.3s, opacity 0.3s;
 }
 
+.btn-close-figcaption {
+  position: absolute;
+  color: black;
+  right: 1rem;
+  top: 1rem;
+  width: 15px;
+  height: 15px;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
 .touch .grid figure:hover figcaption,
 .grid figure.cs-hover figcaption,
 .grid figure:active figcaption,
+.grid figure:disabled figcaption,
 .grid figure.cs-active figcaption {
   opacity: 1;
   -webkit-transform: translate(15px, 15px);
@@ -220,14 +165,64 @@
   transform: translate(15px, 15px);
 } */
 
-.grid figcaption h3 {
-  margin-top: 10px;
-}
-
 .grid figcaption span {
   display: block;
 }
 
 .grid figcaption a {
   margin-top: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .grid {
+    padding: 10px 10px 100px 10px;
+  }
+
+  .grid li {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .grid figcaption {
+    position: absolute;
+    width: 90% !important;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    min-height: 100% !important;
+  }
+  .grid figcaption p {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 3px;
+    padding: 0;
+    margin-top: 3px;
+    padding-bottom: 3px;
+    font-family: "Lato", sans-serif;
+  }
+  .grid figcaption h3 {
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: "Lato", sans-serif;
+  }
+
+  .grid figcaption span {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+  }
+  .grid figcaption img {
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
 }

@@ -73,25 +73,6 @@ class Header extends Component {
           >
             curriculum
           </a>
-          {/* <a
-            href={
-              "https://www.linkedin.com/in/carolina-guido-monteiro/?locale=es_ES"
-            }
-            target={"_blank"}
-          >
-            <img
-              src={require("../../img/linkedin-menu.svg")}
-              className="icon-menu"
-              alt="icon"
-            />
-          </a>
-          <a href={"https://github.com/carolgmonteiro"} target={"_blank"}>
-            <img
-              src={require("../../img/github-menu.svg")}
-              className="icon-menu"
-              alt="icon"
-            />
-          </a> */}
         </Menu>
       </div>
     );

@@ -71,7 +71,7 @@ label {
   flex-wrap: wrap;
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .contact {
     min-height: 90vh;
     display: flex;

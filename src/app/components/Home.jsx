@@ -1,16 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Home.css";
-// import "./Button.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Typist from "react-typist";
 import "./Typist.scss";
-// import Header from "../components/Header";
-// import Fade from "react-reveal/Fade";
 
 import { Link, animateScroll as scroll } from "react-scroll";
-// import { Col } from "reactstrap";
 class Home extends React.Component {
   state = {
     renderMsg: false
@@ -43,11 +39,11 @@ class Home extends React.Component {
                   className="TypistExample-message"
                   cursor={{ hideWhenDone: true }}
                 >
-                  Front End Developer & UI.UX Des
+                  Front-end Developer & UI Des
                   <Typist.Delay ms={500} />
                   enh
-                  <Typist.Backspace count={3} delay={1000} />
-                  <Typist.Delay ms={750} />
+                  <Typist.Backspace count={3} delay={500} />
+                  <Typist.Delay ms={500} />
                   igner
                   <Typist.Delay ms={750} />
                   <br />
@@ -68,20 +64,10 @@ class Home extends React.Component {
           <div
             className="button-content"
             data-aos="zoom-out"
-            data-aos-delay="5000"
+            data-aos-delay="10000"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="3000"
           >
-            {/* <Link
-              className="btn"
-              activeClass="active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              // offset={-70}
-              duration={500}
-            > */}
-
             <img
               src={require("../../img/avatar13.svg")}
               className="btn-icon-home"
@@ -94,7 +80,6 @@ class Home extends React.Component {
                 <span></span>
               </Link>
             </div>
-            {/* </Link> */}
           </div>
         </div>
       </div>

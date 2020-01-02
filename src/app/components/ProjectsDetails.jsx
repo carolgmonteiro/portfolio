@@ -15,10 +15,6 @@ class ProjectsDetails extends PureComponent {
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000"
         >
-          {/* <a
-            href={"https://github.com/carolgmonteiro/desafio_pinterest"}
-            target={"_blank"}
-          > */}
           <figure>
             <img
               src={require("../../img/pinterest.svg")}
@@ -26,6 +22,9 @@ class ProjectsDetails extends PureComponent {
               alt="icon"
             />
             <figcaption>
+              {/* <button className="btn-close-figcaption">
+                <img src={require("../../img/cancel.svg")} alt="close" />
+              </button> */}
               <h3>Pinterest</h3>
               <span>November 2019</span>
               <hr />
@@ -35,7 +34,10 @@ class ProjectsDetails extends PureComponent {
               </p>
               <label>
                 <img src={require("../../img/tools.svg")} alt="icon" />
-                <p>React JS, Adobe XD, Balsamiq, libraries and Pixabay api.</p>
+                <p>
+                  Javascript, HTML5, CSS3, React JS, Adobe XD, Balsamiq,
+                  libraries and Pixabay api.
+                </p>
               </label>
               <a
                 href={"https://carolgmonteiro.github.io/desafio_pinterest/"}
@@ -60,10 +62,6 @@ class ProjectsDetails extends PureComponent {
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000"
         >
-          {/* <a
-            href={"https://github.com/carolgmonteiro/SCL010-Burger-Queen-V02"}
-            target={"_blank"}
-          > */}
           <figure>
             <img
               src={require("../../img/burgerqueen.svg")}
@@ -80,11 +78,16 @@ class ProjectsDetails extends PureComponent {
               </p>
               <label>
                 <img src={require("../../img/tools.svg")} alt="icon" />
-                <p>React JS, Adobe XD, firebase, bootstrap.</p>
+                <p>
+                  Javascript, HTML5, CSS3, React JS, Adobe XD, firebase,
+                  bootstrap.
+                </p>
               </label>
 
               <a
-                href={"https://adrievelyn.github.io/SCL010-Burger-Queen/"}
+                href={
+                  "https://carolgmonteiro.github.io/SCL010-Burger-Queen-V02/"
+                }
                 target={"_blank"}
               >
                 Demo
@@ -99,7 +102,6 @@ class ProjectsDetails extends PureComponent {
               </a>
             </figcaption>
           </figure>
-          {/* </a> */}
         </li>
         <li
           className="button-content"
@@ -108,10 +110,6 @@ class ProjectsDetails extends PureComponent {
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000"
         >
-          {/* <a
-            href={"https://github.com/carolgmonteiro/SCL010-md-links"}
-            target={"_blank"}
-          > */}
           <figure>
             <img
               src={require("../../img/mdlinks.svg")}
@@ -159,10 +157,6 @@ class ProjectsDetails extends PureComponent {
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1500"
         >
-          {/* <a
-            href={"https://github.com/carolgmonteiro/SCL010-Social-Network"}
-            target={"_blank"}
-          > */}
           <figure>
             <img
               src={require("../../img/migrame.svg")}
@@ -200,7 +194,6 @@ class ProjectsDetails extends PureComponent {
               </a>
             </figcaption>
           </figure>
-          {/* </a> */}
         </li>
         <li
           className="button-content"
@@ -209,12 +202,6 @@ class ProjectsDetails extends PureComponent {
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1500"
         >
-          {/* <a
-            href={
-              "https://github.com/carolgmonteiro/SCL010-hackathon-peliculas"
-            }
-            target={"_blank"}
-          > */}
           <figure>
             <img
               src={require("../../img/viewnow.svg")}
@@ -251,7 +238,6 @@ class ProjectsDetails extends PureComponent {
               </a>
             </figcaption>
           </figure>
-          {/* </a> */}
         </li>
         <li
           className="button-content"
@@ -260,10 +246,6 @@ class ProjectsDetails extends PureComponent {
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="3000"
         >
-          {/* <a
-            href={"https://github.com/carolgmonteiro/SCL010-data-lovers"}
-            target={"_blank"}
-          > */}
           <figure>
             <img
               src={require("../../img/poketmon.svg")}
@@ -299,7 +281,6 @@ class ProjectsDetails extends PureComponent {
               </a>
             </figcaption>
           </figure>
-          {/* </a> */}
         </li>
       </ul>
     );

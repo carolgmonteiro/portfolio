@@ -111,26 +111,27 @@
   }
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 360px) {
   .TypistExample {
     line-height: 1.6;
     margin-left: 2rem;
     margin-top: 1rem;
+    margin-bottom: 0;
   }
 
   .TypistExample h1 {
     color: #b1dee7;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 1000;
   }
   .TypistExample a {
-    font-size: 35px;
+    font-size: 32px;
     margin-bottom: 1rem;
   }
   .TypistExample-message {
     color: #b1dee7;
     width: 300px;
-    margin: auto;
+    margin: 0;
     font-size: 18px !important;
   }
   .TypistExample-message .flash {
@@ -138,5 +139,86 @@
   }
 }
 
-@media screen and (max-width: 2000px) and (min-width: 1024px) {
+@media (min-width: 375px) and (max-width: 411px) {
+  .TypistExample {
+    line-height: 1.7;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  .TypistExample h1 {
+    color: #b1dee7;
+    font-size: 40px;
+    font-weight: 1000;
+  }
+  .TypistExample a {
+    font-size: 40px;
+    margin-bottom: 1rem;
+  }
+  .TypistExample-message {
+    color: #b1dee7;
+    width: 100%;
+    margin: 0;
+    font-size: 20px !important;
+  }
+  .TypistExample-message .flash {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 750px) {
+  .TypistExample {
+    line-height: 1.7;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  .TypistExample h1 {
+    color: #b1dee7;
+    font-size: 40px;
+    font-weight: 1000;
+  }
+  .TypistExample a {
+    font-size: 40px;
+    margin-bottom: 1rem;
+  }
+  .TypistExample-message {
+    color: #b1dee7;
+    width: 100%;
+    margin: 0;
+    font-size: 20px !important;
+  }
+  .TypistExample-message .flash {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 768px) {
+  .TypistExample {
+    line-height: 1.7;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  .TypistExample h1 {
+    color: #b1dee7;
+    font-size: 50px;
+    font-weight: 1000;
+  }
+  .TypistExample a {
+    font-size: 50px;
+    margin-bottom: 1rem;
+  }
+  .TypistExample-message {
+    color: #b1dee7;
+    width: 100%;
+    margin: 0;
+    font-size: 22px !important;
+  }
+  .TypistExample-message .flash {
+    font-size: 22px !important;
+  }
 }

@@ -79,6 +79,19 @@ class Contact extends React.Component {
             </a>
             <a
               href={
+                "https://app.talento.laboratoria.la/profile/PYBmdj6dR3WiP5ajTTd2WJ9WhE03"
+              }
+              target={"_blank"}
+            >
+              <img
+                src={require("../../img/laboratoria.svg")}
+                className="icon"
+                alt="icon"
+                target={"_blank"}
+              />
+            </a>
+            <a
+              href={
                 "https://issuu.com/carolinaguido/docs/_sketchbook_carolina_guido_jan17"
               }
               target={"_blank"}
