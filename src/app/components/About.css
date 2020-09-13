@@ -15,16 +15,9 @@ p {
 .about-container {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 3rem;
-  margin-left: 5rem;
-  margin-right: 1rem;
 }
 .about-content {
-  padding-top: 1rem;
-  padding-bottom: 3rem;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
 }
 .about-container h2 {
   margin-bottom: 1rem;
@@ -52,7 +45,7 @@ p {
 
 .skills-content {
   margin: 0 auto;
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 .about-container h3 {
   margin-top: 3rem;
@@ -62,14 +55,6 @@ p {
   font-family: "Lato";
   font-weight: 800;
   font-size: 35px;
-}
-
-.icons-container-skills {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
 }
 
 .skills-text {
@@ -146,13 +131,6 @@ p {
 }
 
 @media (min-width: 320px) and (max-width: 375px) {
-  .icons-container-skills {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-  }
   .about {
     min-height: 100vh;
     margin: 0 auto;

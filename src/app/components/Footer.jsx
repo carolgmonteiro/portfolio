@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <div className="footer">
         <p>
-          © 2019 Created and Designed by Carolina Guido. All rights reserved.
+          © 2020 Created and Designed by Carolina Guido. All rights reserved.
         </p>
       </div>
     );

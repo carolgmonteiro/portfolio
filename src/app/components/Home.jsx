@@ -9,7 +9,7 @@ import "./Typist.scss";
 import { Link, animateScroll as scroll } from "react-scroll";
 class Home extends React.Component {
   state = {
-    renderMsg: false
+    renderMsg: false,
   };
 
   onHeaderTyped = () => {
@@ -20,8 +20,11 @@ class Home extends React.Component {
     AOS.init();
     // const docs = "//github.com/carolgmonteiro";
     return (
-      <div className="home" id="home">
-        <div className="text-zone">
+      <div
+        className="col-12 d-flex justify-content-center align-items-center home"
+        id="home"
+      >
+        <div className="col-md-6 p-0 text-zone">
           <div className="TypistExample">
             <Typist
               className="TypistExample-header"
@@ -39,7 +42,7 @@ class Home extends React.Component {
                   className="TypistExample-message"
                   cursor={{ hideWhenDone: true }}
                 >
-                  Front-end Developer & UI Des
+                  Front-end Developer & UI UX Des
                   <Typist.Delay ms={500} />
                   enh
                   <Typist.Backspace count={3} delay={500} />
@@ -60,7 +63,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="home-content">
+        <div className="col-md-6 d-flex align-items-center  justify-content-center home-content">
           <div
             className="button-content"
             data-aos="zoom-out"
@@ -69,18 +72,18 @@ class Home extends React.Component {
             data-aos-duration="3000"
           >
             <img
-              src={require("../../img/avatar13.svg")}
+              src={require("../../img/avatar14.svg")}
               className="btn-icon-home"
               alt="about"
             />
-            <div id="section05" className="demo">
-              <Link activeClass="active" to="projects" spy={true} smooth={true}>
-                <span></span>
-                <span></span>
-                <span></span>
-              </Link>
-            </div>
           </div>
+        </div>
+        <div id="section05" className="demo">
+          <Link activeClass="active" to="projects" spy={true} smooth={true}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </Link>
         </div>
       </div>
     );

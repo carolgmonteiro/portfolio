@@ -1,16 +1,15 @@
 .contact {
   background: #e6f4f3;
-  min-height: 90vh;
+  min-height: 50vh;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  padding-left: 6rem;
   font-family: "Lato", sans-serif;
 }
 
 .contact-content {
   /* padding-top: 2rem; */
-  display: inline-flex;
+  /* display: inline-flex; */
   /* padding-left: 2rem; */
   width: 100%;
 }
@@ -22,7 +21,7 @@ label {
   margin-bottom: 0.5rem;
 }
 .icons-follow-me {
-  padding-top: 4rem;
+  padding-top: 1rem;
   margin: 0 auto;
   width: 50%;
 }

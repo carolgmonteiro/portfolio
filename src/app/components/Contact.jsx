@@ -6,19 +6,18 @@ import "./Contact.css";
 class Contact extends React.Component {
   render() {
     return (
-      <div className="contact" id="contact">
-        <h1
-          data-aos="zoom-in-right"
-          data-aos-delay="10"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="1000"
-        >
-          Say hello!
-        </h1>
-        <br />
-
-        <div className="contact-content">
-          <div className="contact-info">
+      <div className="contact p-4" id="contact">
+        <div className="contact-content col-12 m-4 p-4">
+          <h1
+            data-aos="zoom-in-right"
+            data-aos-delay="10"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1000"
+          >
+            Say hello!
+          </h1>
+          <br />
+          <div className="col-12 contact-info">
             <p
               data-aos="fade-up"
               data-aos-delay="10"
@@ -50,14 +49,16 @@ class Contact extends React.Component {
               <p>carolgmonteiro@live.com</p>
             </label>
           </div>
-          <div
-            className="icons-follow-me"
-            data-aos="fade-up"
-            data-aos-delay="10"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="2500"
-          >
-            <label>Follow me</label>
+        </div>
+        <div
+          className="icons-follow-me"
+          data-aos="fade-up"
+          data-aos-delay="10"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="2500"
+        >
+          <h3 className="text-center">Follow me</h3>
+          <div className="icons-follow-me d-flex justify-content-center align-items-center">
             <a
               href={
                 "https://www.linkedin.com/in/carolina-guido-monteiro/?locale=es_ES"

@@ -16,17 +16,17 @@ p {
 
 .home .text-zone {
   /* margin-top: 2%; */
-  margin-left: 3%;
+  /* margin-left: 3%; */
   width: 50%;
 }
 
 .button-content {
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
+  /* justify-content: center;
+  display: flex; */
+  /* flex-wrap: wrap;
   margin-top: 10%;
-  margin-right: 5rem;
-  float: right;
+  margin-right: 5rem; */
+  /* float: right; */
   /* padding-bottom: 7rem; */
 }
 
@@ -41,16 +41,15 @@ p {
 }
 
 .btn-icon-home {
-  position: relative;
-  min-height: 250px;
-  height: 465px;
-  width: 465px;
-  top: 50%;
+  /* position: relative;
+  min-height: 250px; */
+  height: auto;
+  width: 30vw;
 }
 
 .demo {
   position: absolute;
-  top: 90%;
+  bottom: 10%;
   left: 50%;
   z-index: 2;
   display: inline-block;
@@ -71,7 +70,7 @@ p {
 }
 #section05 a span {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 50%;
   width: 24px;
   height: 24px;
@@ -136,12 +135,12 @@ p {
   }
 
   .btn-icon-home {
-    height: 270px;
+    width: 90vw;
     right: 0;
     bottom: 1rem;
     margin-left: 0;
     margin-top: 2rem;
-    margin-bottom: 0;
+    margin-bottom: 4rem;
   }
 
   .home .text-zone {
@@ -159,7 +158,7 @@ p {
   }
   .demo {
     position: absolute;
-    top: 70%;
+    top: 95%;
     left: 50%;
     z-index: 2;
     display: inline-block;
@@ -168,7 +167,7 @@ p {
 
 @media (min-width: 375px) and (max-width: 414px) {
   .btn-icon-home {
-    height: 320px;
+    width: 90vw;
     right: 0;
     bottom: 1rem;
     margin-left: 0;
@@ -204,7 +203,7 @@ p {
   }
   .demo {
     position: absolute;
-    top: 70%;
+    top: 95%;
     left: 50%;
     z-index: 2;
     display: inline-block;
@@ -223,7 +222,7 @@ p {
   }
 
   .btn-icon-home {
-    height: 350px;
+    width: 90vw;
     right: 0;
     bottom: 1rem;
     margin-left: 0;
@@ -250,7 +249,7 @@ p {
   }
   .demo {
     position: absolute;
-    top: 70%;
+    top: 95%;
     left: 50%;
     z-index: 2;
     display: inline-block;
@@ -269,7 +268,7 @@ p {
   }
 
   .btn-icon-home {
-    height: 475px;
+    width: 90vw;
     right: 0;
     bottom: 1rem;
     margin-left: 0;
@@ -296,7 +295,7 @@ p {
   }
   .demo {
     position: absolute;
-    top: 70%;
+    top: 95%;
     left: 50%;
     z-index: 2;
     display: inline-block;

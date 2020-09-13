@@ -17,6 +17,48 @@ class ProjectsDetails extends PureComponent {
         >
           <figure>
             <img
+              src={require("../../img/sodimac.svg")}
+              className="icon-project"
+              alt="icon"
+            />
+            <figcaption>
+              <h3>Sodimac Conductor</h3>
+              <span>January 2020</span>
+              <hr />
+              <p>
+                App focused on Sodimac drivers to improve communication between
+                suppliers and Sodimac with more frequent updates on delivery
+                status.
+              </p>
+              <label>
+                <img src={require("../../img/tools.svg")} alt="icon" />
+                <p>Figma, React JS, HTML5, CSS3, Javascript, Mongo DB.</p>
+              </label>
+
+              <a
+                href={"https://sodimac-conductor.herokuapp.com/"}
+                target={"_blank"}
+              >
+                Demo
+              </a>
+              <a
+                href={"https://github.com/carolgmonteiro/sodimac-app-conductor"}
+                target={"_blank"}
+              >
+                Code
+              </a>
+            </figcaption>
+          </figure>
+        </li>
+        <li
+          className="button-content"
+          data-aos="fade-up"
+          data-aos-delay="10"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1000"
+        >
+          <figure>
+            <img
               src={require("../../img/pinterest.svg")}
               className="icon-project"
               alt="icon"
@@ -103,7 +145,8 @@ class ProjectsDetails extends PureComponent {
             </figcaption>
           </figure>
         </li>
-        <li
+
+        {/* <li
           className="button-content"
           data-aos="fade-up"
           data-aos-delay="10"
@@ -148,8 +191,7 @@ class ProjectsDetails extends PureComponent {
               </a>
             </figcaption>
           </figure>
-          {/* </a> */}
-        </li>
+        </li> */}
         <li
           className="button-content"
           data-aos="fade-up"
